@@ -148,4 +148,46 @@ QBShared.Weapons = {
 	-- Animals
 	[`weapon_animal`]                = { name = 'weapon_animal', label = 'Animal', weapontype = 'Animals', ammotype = nil, damagereason = 'Mauled' },
 	[`weapon_cougar`]                = { name = 'weapon_cougar', label = 'Cougar', weapontype = 'Animals', ammotype = nil, damagereason = 'Mauled' },
+
+	-- Custom Weapons
+	[`weapon_shiv`] = { name = 'weapon_shiv', label = 'Shiv', caliber = nil, weapontype = 'Melee', ammotype = nil, damagereason = 'Knifed / Stabbed / Eviscerated' },
+	[`weapon_katana`] = { name = 'weapon_katana', label = 'Katana', caliber = nil, weapontype = 'Melee', ammotype = nil, damagereason = 'Knifed / Stabbed / Eviscerated' },
+	[`weapon_sledgehammer`] = { name = 'weapon_sledgehammer', label = 'Sledge Hammer', caliber = nil, weapontype = 'Melee', ammotype = nil, damagereason = 'Melee killed / Whacked / Executed / Beat down / Murdered / Battered' },
+	[`weapon_karambit`] = { name = 'weapon_karambit', label = 'Karambit', caliber = nil, weapontype = 'Melee', ammotype = nil, damagereason = 'Knifed / Stabbed / Eviscerated' },
+	[`weapon_colbaton`] = { name = 'weapon_colbaton', label = 'Baton', caliber = nil, weapontype = 'Melee', ammotype = nil, damagereason = 'Beat' },
+	
+	-- Blackmarket
+	[`weapon_ak47`] = { name = 'weapon_ak47', label = 'AK-47', caliber = '5.56x45mm NATO', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+	[`weapon_m70`] = { name = 'weapon_m70', label = 'M70', caliber = '5.56x45mm NATO', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+	[`weapon_de`] = { name = 'weapon_de', label = 'Desert Eagle', caliber = '.44 Magnum',  weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
+	[`weapon_fnx45`] = { name = 'weapon_fnx45', label = 'FN FNX45', caliber = '.45 ACP',  weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
+	[`weapon_m9`] = { name = 'weapon_m9', label = 'Beretta M9A3', caliber = '.45 ACP',  weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
+	[`weapon_m1911`] = { name = 'weapon_m1911', label = 'M1911', caliber = '.45 ACP',  weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
+	[`weapon_uzi`] = { name = 'weapon_uzi', label = 'UZI', caliber = '9x19mm Parabellum', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Finished / Submachine Gunned' },
+	[`weapon_mac10`] = { name = 'weapon_mac10', label = 'MAC-10', caliber = '9x19mm Parabellum', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Finished / Submachine Gunned' },
+	[`weapon_mossberg`] = { name = 'weapon_mossberg', label = 'Mossberg 500', caliber = '12 Gauge', weapontype = 'Shotgun', ammotype = 'AMMO_SHOTGUN', damagereason = 'Devastated / Pulverized / Shotgunned' },
+	[`weapon_huntingrifle`] = { name = 'weapon_huntingrifle', label = 'Hunting Rifle', caliber = '7.76x51mm NATO', weapontype = 'Sniper Rifle', ammotype = 'AMMO_SNIPER', damagereason = 'Ended / Sniped / Shot down / Floored' },
+	[`weapon_mp9`] = { name = 'weapon_mp9', label = 'MP9', caliber = '9x19mm Parabellum', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Finished / Submachine Gunned' },
+	[`weapon_m110`] = { name = 'weapon_m110', label = 'M110', caliber = '7.76x51mm NATO', weapontype = 'Sniper Rifle', ammotype = 'AMMO_SNIPER', damagereason = 'Ended / Sniped / Shot down / Floored' },
+	[`weapon_hk416`] = { name = 'weapon_hk416', label = 'HK-416', caliber = '5.56x45mm NATO', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+	[`weapon_ak74`] = { name = 'weapon_ak74', label = 'AK-74', caliber = '5.56x45mm NATO', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+	[`weapon_aks74`] = { name = 'weapon_aks74', label = 'AK-S74', caliber = '5.56x45mm NATO', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+	[`weapon_glock22`] = { name = 'weapon_glock22', label = 'Glock 22', caliber = '9x19mm Parabellum',  weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
+	[`weapon_glock18c`] = { name = 'weapon_glock18c', label = 'Glock 18C', caliber = '9x19mm Parabellum',  weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
+	[`weapon_mp5`] = { name = 'weapon_mp5', label = 'H&K MP5', caliber = '9x19mm Parabellum', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Finished / Submachine Gunned' },
+
+	-- Police
+	[`weapon_glock17`] = { name = 'weapon_glock17', label = 'PD Glock 17', caliber = '9x19mm Parabellum',  weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
+	[`weapon_m4`] = { name = 'weapon_m4', label = 'PD M4A1', caliber = '5.56x45mm NATO', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+	[`weapon_ar15`] = { name = 'weapon_ar15', label = 'PD AR-15', caliber = '5.56x45mm NATO', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+	[`weapon_remington`] = { name = 'weapon_remington', label = 'Remington 870', caliber = '12 Gauge', weapontype = 'Shotgun', ammotype = 'AMMO_SHOTGUN', damagereason = 'Devastated / Pulverized / Shotgunned' },
+	[`weapon_scarh`] = { name = 'weapon_scarh', label = 'PD SCAR-H', caliber = '5.56x45mm NATO', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
+	[`weapon_mk14`] = { name = 'weapon_mk14', label = 'PD MK14', caliber = '7.76x51mm NATO', weapontype = 'Sniper Rifle', ammotype = 'AMMO_SNIPER', damagereason = 'Ended / Sniped / Shot down / Floored' },
+	
+	-- nx-taser
+	[`weapon_taser`] = { name = 'weapon_taser', label = 'PD Taser', caliber = 'Taser Cartridge',  weapontype = 'Pistol', ammotype = 'AMMO_STUNGUN', damagereason = 'Tased' },
+	
+	[`weapon_prolaser4`] = { name = 'weapon_prolaser4', label = 'Lidar Gun', caliber = nil,  weapontype = 'Pistol', ammotype = nil, damagereason = 'Ticketed / Fined / Caught Speeding / Slow Down' },
+	[`weapon_beanbagshotgun`] = { name = 'weapon_beanbagshotgun', label = 'Non-Lethal Shotgun', caliber = 'Bean Bags', caliber = '12 Gauge', weapontype = 'Shotgun', ammotype = 'AMMO_SHOTGUN', damagereason = 'Hit by a bean bag' },
+	
 }
