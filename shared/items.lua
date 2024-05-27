@@ -330,7 +330,7 @@ QBShared.Items = {
 
     -- Communication
     phone                        = { name = 'phone', label = 'Phone', weight = 700, type = 'item', image = 'phone.png', unique = true, useable = false, shouldClose = false, description = 'Neat phone ya got there' },
-    radio                        = { name = 'radio', label = 'Radio', weight = 2000, type = 'item', image = 'radio.png', unique = true, useable = true, shouldClose = true, description = 'You can communicate with this through a signal' },
+    -- radio                        = { name = 'radio', label = 'Radio', weight = 2000, type = 'item', image = 'radio.png', unique = true, useable = true, shouldClose = true, description = 'You can communicate with this through a signal' },
     iphone                       = { name = 'iphone', label = 'iPhone', weight = 1000, type = 'item', image = 'iphone.png', unique = false, useable = false, shouldClose = true, description = 'Very expensive phone' },
     samsungphone                 = { name = 'samsungphone', label = 'Samsung S10', weight = 1000, type = 'item', image = 'samsungphone.png', unique = false, useable = false, shouldClose = true, description = 'Very expensive phone' },
     laptop                       = { name = 'laptop', label = 'Laptop', weight = 4000, type = 'item', image = 'laptop.png', unique = false, useable = false, shouldClose = true, description = 'Expensive laptop' },
@@ -2227,4 +2227,37 @@ QBShared.Items = {
 	["flight_guitar"]             = {["name"] = "flight_guitar",           ["label"] = "Guitar",           ["weight"] = 25000,   ["type"] = "item",    ["image"] = "flightguitar.png",         ["unique"] = true,    ["useable"] = false,   ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Music Equipment"},
 	["flight_suitcase"]             = {["name"] = "flight_suitcase",          ["label"] = "Suitcase",           ["weight"] = 25000,   ["type"] = "item",    ["image"] = "flightsuitcase.png",       ["unique"] = true,    ["useable"] = false,   ["shouldClose"] = true,    ["combinable"] = nil,   ["description"] = "Work Suitcase"},
 
+	-- mm_radio
+	["radio"] = {
+        ["name"] = "radio",
+        ["label"] = "Radio",
+        ["weight"] = 100,
+        ["type"] = "item",
+        ["image"] = "radio.png",
+        ["unique"] = true,
+        ["useable"] = true,
+        ["shouldClose"] = true,
+        ["description"] = "A communication system for person"
+	},
+	["jammer"] = {
+		["name"] = "jammer",
+		["label"] = "Radio Jammer",
+		["weight"] = 10000,
+		["type"] = "item",
+		["image"] = "jammer.png",
+		["unique"] = true,
+		["useable"] = true,
+		["shouldClose"] = true,
+		["description"] = "A device to block radio signals around"
+	},
+	["radiocell"] = {
+		["name"] = "radiocell",
+		["label"] = "AAA Cells",
+		["weight"] = 500,
+		["type"] = "item",
+		["image"] = "radiocell.png",
+		["useable"] = true,
+		["shouldClose"] = true,
+		["description"] = "Batteries to powerup radio device"
+	}
 }
