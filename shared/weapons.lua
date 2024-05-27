@@ -162,7 +162,6 @@ QBShared.Weapons = {
 	[`weapon_de`] = { name = 'weapon_de', label = 'Desert Eagle', caliber = '.44 Magnum',  weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
 	[`weapon_fnx45`] = { name = 'weapon_fnx45', label = 'FN FNX45', caliber = '.45 ACP',  weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
 	[`weapon_m9`] = { name = 'weapon_m9', label = 'Beretta M9A3', caliber = '.45 ACP',  weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
-	[`weapon_m1911`] = { name = 'weapon_m1911', label = 'M1911', caliber = '.45 ACP',  weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
 	[`weapon_uzi`] = { name = 'weapon_uzi', label = 'UZI', caliber = '9x19mm Parabellum', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Finished / Submachine Gunned' },
 	[`weapon_mac10`] = { name = 'weapon_mac10', label = 'MAC-10', caliber = '9x19mm Parabellum', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Finished / Submachine Gunned' },
 	[`weapon_mossberg`] = { name = 'weapon_mossberg', label = 'Mossberg 500', caliber = '12 Gauge', weapontype = 'Shotgun', ammotype = 'AMMO_SHOTGUN', damagereason = 'Devastated / Pulverized / Shotgunned' },
@@ -177,7 +176,6 @@ QBShared.Weapons = {
 	[`weapon_mp5`] = { name = 'weapon_mp5', label = 'H&K MP5', caliber = '9x19mm Parabellum', weapontype = 'Submachine Gun', ammotype = 'AMMO_SMG', damagereason = 'Riddled / Drilled / Finished / Submachine Gunned' },
 
 	-- Police
-	[`weapon_glock17`] = { name = 'weapon_glock17', label = 'PD Glock 17', caliber = '9x19mm Parabellum',  weapontype = 'Pistol', ammotype = 'AMMO_PISTOL', damagereason = 'Pistoled / Blasted / Plugged / Bust a cap in' },
 	[`weapon_m4`] = { name = 'weapon_m4', label = 'PD M4A1', caliber = '5.56x45mm NATO', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
 	[`weapon_ar15`] = { name = 'weapon_ar15', label = 'PD AR-15', caliber = '5.56x45mm NATO', weapontype = 'Assault Rifle', ammotype = 'AMMO_RIFLE', damagereason = 'Ended / Rifled / Shot down / Floored' },
 	[`weapon_remington`] = { name = 'weapon_remington', label = 'Remington 870', caliber = '12 Gauge', weapontype = 'Shotgun', ammotype = 'AMMO_SHOTGUN', damagereason = 'Devastated / Pulverized / Shotgunned' },
