@@ -75,6 +75,7 @@ QBConfig.Player.PlayerDefaults = {
         rep = {},
         currentapartment = nil,
         callsign = 'NO CALLSIGN',
+        communityservice = 0 -- qb-community-service
         bloodtype = function() return QBConfig.Player.Bloodtypes[math.random(1, #QBConfig.Player.Bloodtypes)] end,
         fingerprint = function() return QBCore.Player.CreateFingerId() end,
         walletid = function() return QBCore.Player.CreateWalletId() end,
