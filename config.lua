@@ -60,6 +60,12 @@ QBConfig.Player.PlayerDefaults = {
         }
     },
     metadata = {
+        lambratrucker = { -- lambra-advancedTrucker
+            level = 0,
+            distance = 0,
+            pristine = 0
+        },
+        communityservice = 0 -- qb-community-service
         hunger = 100,
         thirst = 100,
         stress = 0,
@@ -75,7 +81,6 @@ QBConfig.Player.PlayerDefaults = {
         rep = {},
         currentapartment = nil,
         callsign = 'NO CALLSIGN',
-        communityservice = 0 -- qb-community-service
         bloodtype = function() return QBConfig.Player.Bloodtypes[math.random(1, #QBConfig.Player.Bloodtypes)] end,
         fingerprint = function() return QBCore.Player.CreateFingerId() end,
         walletid = function() return QBCore.Player.CreateWalletId() end,
