@@ -464,44 +464,9 @@ QBShared.Items = {
 	['k9'] 							 = {['name'] = 'k9', 							['label'] = 'Police K9', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'k9.png', 					['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,  ['combinable'] = nil, 	 ['description'] = 'Call For Back Up Buddy'},
     
     --[[Limio-Pets]]
-    	['dogfood'] = {
-		['name'] = 'dogfood',
-		['label'] = 'Dogfood',
-		['weight'] = 1000,
-		['type'] = 'item',
-		['image'] = 'dogfood.png',
-		['unique'] = false,
-		['useable'] = true,
-		['shouldClose'] = true,
-		['combinable'] = nil,
-		['description'] = 'Food for your dog'
-	},
-	
-	['catfood'] = {
-		['name'] = 'catfood',
-		['label'] = 'Catfood',
-		['weight'] = 1000,
-		['type'] = 'item',
-		['image'] = 'catfood.png',
-		['unique'] = false,
-		['useable'] = true,
-		['shouldClose'] = true,
-		['combinable'] = nil,
-		['description'] = 'Food for your cat'
-	},
-
-	['chickenfood'] = {
-		['name'] = 'chickenfood',
-		['label'] = 'Chickenfood',
-		['weight'] = 1000,
-		['type'] = 'item',
-		['image'] = 'chickenfood.png',
-		['unique'] = false,
-		['useable'] = true,
-		['shouldClose'] = true,
-		['combinable'] = nil,
-		['description'] = 'Food for your chicken'
-	},
+    ['dogfood']                         = {['name'] = 'dogfood',                           ['label'] = 'Dogfood',                   ['weight'] = 1000,         ['type'] = 'item',         ['image'] = 'dogfood.png',                 ['unique'] = false,         ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'Food for your dog'},  
+    ['catfood']                         = {['name'] = 'catfood',                           ['label'] = 'Catfood',                   ['weight'] = 1000,         ['type'] = 'item',         ['image'] = 'catfood.png',                 ['unique'] = false,         ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'Food for your cat'},
+    ['chickenfood']                     = {['name'] = 'chickenfood',                       ['label'] = 'Chickenfood',               ['weight'] = 1000,         ['type'] = 'item',         ['image'] = 'chickenfood.png',             ['unique'] = false,         ['useable'] = true,      ['shouldClose'] = true,      ['combinable'] = nil,   ['description'] = 'Food for your chicken'},
 
 	--[[BurgerShot]]
 	--Ingredients
@@ -566,7 +531,7 @@ QBShared.Items = {
 	["margarita"] 					= {["name"] = "margarita",  	     		["label"] = "Margarita",	 			["weight"] = 200, 		["type"] = "item", 		["image"] = "margarita.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Margarita", ['thirst'] = math.random(40, 50) },
 	["pinacolada"] 					= {["name"] = "pinacolada",  	     		["label"] = "Pina Colada",	 			["weight"] = 200, 		["type"] = "item", 		["image"] = "pinacolada.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Pine Colada", ['thirst'] = math.random(40, 50) },
 	["sangria"] 					= {["name"] = "sangria",  	     			["label"] = "Sangria",	 				["weight"] = 200, 		["type"] = "item", 		["image"] = "sangria.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Sangria", ['thirst'] = math.random(40, 50) },
-	["screwdriver"] 				= {["name"] = "screwdriver",  	     		["label"] = "Screwdriver",	 			["weight"] = 200, 		["type"] = "item", 		["image"] = "screwdriver.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Screwdriver", ['thirst'] = math.random(40, 50) },
+	["screwdriver"] 				= {["name"] = "screwdriver",  	     		["label"] = "Screwdriver",	 			["weight"] = 200, 		["type"] = "item", 		["image"] = "screwdriverdrink.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Screwdriver", ['thirst'] = math.random(40, 50) },
 	["strawdaquiri"] 				= {["name"] = "strawdaquiri",  	     		["label"] = "Strawberry Daquiri",	 	["weight"] = 200, 		["type"] = "item", 		["image"] = "strawdaquiri.png", ["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Strawberry Daquiri", ['thirst'] = math.random(40, 50) },
 	["strawmargarita"] 				= {["name"] = "strawmargarita",  	     	["label"] = "Strawberry Margarita",	 	["weight"] = 200, 		["type"] = "item", 		["image"] = "strawmargarita.png",["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "Starberry Margarita", ['thirst'] = math.random(40, 50) },
 
@@ -1787,16 +1752,29 @@ QBShared.Items = {
 	['powerbank']                       = {['name'] = 'powerbank',                       ['label'] = 'Power Bank',                 ['weight'] = 200,         ['type'] = 'item',         ['image'] = 'powerbank.png',             ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,        ['combinable'] = nil,   ['description'] = 'Incredible portable charger!'},
 
 	-- envi-sabotage
-	['phone_bomb']                        = {['name'] = 'phone_bomb',                     ['label'] = 'Detonator Device',                         ['weight'] = 500,         ['type'] = 'item',         ['image'] = 'impact_bomb.png',                 ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = nil},
-	['remote_bomb']                   = {['name'] = 'remote_bomb',                     ['label'] = 'Remote Explosive',                         ['weight'] = 500,         ['type'] = 'item',         ['image'] = 'impact_bomb.png',                 ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = nil},
-	['ignition_bomb']                   = {['name'] = 'ignition_bomb',                 ['label'] = 'Ignition Explosive',                         ['weight'] = 500,         ['type'] = 'item',         ['image'] = 'ignition_bomb.png',                 ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = nil},
-	['impact_bomb']                   = {['name'] = 'impact_bomb',                     ['label'] = 'Impact Explosive',                         ['weight'] = 500,         ['type'] = 'item',         ['image'] = 'impact_bomb.png',                 ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = nil},
-	['firelighter']                   = {['name'] = 'firelighter',                     ['label'] = 'Fire Lighters',                             ['weight'] = 500,         ['type'] = 'item',         ['image'] = 'firelighter.png',                 ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = nil},
-	['impact_driver']                   = {['name'] = 'impact_driver',                 ['label'] = 'Impact Driver',                             ['weight'] = 500,         ['type'] = 'item',         ['image'] = 'impact_driver.png',                 ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = nil},
-	['buzz_saw']                       = {['name'] = 'buzz_saw',                         ['label'] = 'Buzz Saw',                                 ['weight'] = 500,         ['type'] = 'item',         ['image'] = 'buzz_saw.png',                 ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = nil},
-	['spanner']                       = {['name'] = 'spanner',                         ['label'] = 'Spanner',                                     ['weight'] = 500,         ['type'] = 'item',         ['image'] = 'spanner.png',                 ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = nil},
-	['adjustable_spanner']              = {['name'] = 'adjustable_spanner',             ['label'] = 'Adjustable Spanner',                         ['weight'] = 500,         ['type'] = 'item',         ['image'] = 'adjspanner.png',                 ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] =nil},
-	['pliers']                           = {['name'] = 'pliers',                         ['label'] = 'Pliers',                                     ['weight'] = 500,         ['type'] = 'item',         ['image'] = 'pliers.png',                 ['unique'] = true,         ['useable'] = true,     ['shouldClose'] = true,       ['combinable'] = nil,   ['description'] = nil},
+	impact_driver 			= {name = 'impact_driver',		label = 'Impact Driver',		weight = 1000,			type = 'item',		image = 'impact_driver.png',		        unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	spanner 				= {name = 'spanner',			label = 'Spanner',		        weight = 1000,			type = 'item',		image = 'spanner.png',				unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	pliers 		            = {name = 'pliers',		        label = 'Pliers',		        weight = 1000,			type = 'item',		image = 'pliers.png',				unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	adjustable_spanner 		= {name = 'adjustable_spanner',	label = 'Adjustable Spanner',	weight = 1000,			type = 'item',		image = 'adj_spanner.png',	        unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	drill 		            = {name = 'drill',		        label = 'Drill',		        weight = 1000,			type = 'item',		image = 'drill.png',				unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	buzz_saw 				= {name = 'buzz_saw',			label = 'Buzz Saw',		        weight = 1000,			type = 'item',		image = 'buzz_saw.png',				unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	screwdriver 			= {name = 'screwdriver',		label = 'Screwdriver',			weight = 1000,			type = 'item',		image = 'screwdriver.png',			unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	ignition_bomb 			= {name = 'ignition_bomb',		label = 'Ignition Bomb',		weight = 1000,			type = 'item',		image = 'ignition_bomb.png',		        unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	impact_bomb 			= {name = 'impact_bomb',		label = 'Impact Bomb',		    weight = 1000,			type = 'item',		image = 'impact_bomb.png',			unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	remote_bomb 			= {name = 'remote_bomb',		label = 'Remote Bomb',		    weight = 1000,			type = 'item',		image = 'ignition_bomb.png',			unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	speed_bomb 				= {name = 'speed_bomb',			label = 'Speed Bomb',		    weight = 1000,			type = 'item',		image = 'speed_bomb.png',			unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	firelighter 			= {name = 'firelighter',		label = 'Firelighter',		    weight = 1000,			type = 'item',		image = 'firelighter.png',			unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+
+	--- envi-chopshop
+    car_door                   = { name = 'car_door', 	  label = 'car door part', weight = 500, type = 'item', image = 'car_door.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '...' },
+    car_wheel                  = { name = 'car_wheel', 	  label = 'car wheel', weight = 500, type = 'item', image = 'car_wheel.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '...' },
+    car_battery                = { name = 'car_battery',  label = 'car battery', weight = 500, type = 'item', image = 'car_battery.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '...' },
+    car_gearbox                = { name = 'car_gearbox',  label = 'car gearbox ', weight = 500, type = 'item', image = 'car_gearbox.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '...' },
+    car_radiator               = { name = 'car_radiator', label = 'car radiator', weight = 500, type = 'item', image = 'car_radiator.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '...' },
+    car_scrap                  = { name = 'car_scrap', 	  label = 'car scrap', weight = 500, type = 'item', image = 'car_scrap.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '...' },
+    car_hood                   = { name = 'car_hood', 	  label = 'car hood', weight = 500, type = 'item', image = 'car_hood.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '...' },
+    car_trunk                  = { name = 'car_trunk', 	  label = 'car trunk', weight = 500, type = 'item', image = 'car_trunk.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = '...' },
+    chop_contract              = {name = "chop_contract", label = "chop_contract",            weight = 0,         type = "item",         image = "chop_contract.png",                 unique = true,     useable = true,     shouldClose = true,       combinable = nil,   description = "chop_contract.."},
 
 	------------------
 	-- PLACEABLE ITEMS
@@ -1955,7 +1933,7 @@ QBShared.Items = {
 
 	-- av_dealership
 	['contract'] = {['name'] = 'contract', ['label'] = 'Contract', ['weight'] = 500, ['type'] = 'item', ['image'] = 'contract.png', ['unique'] = true, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Used to buy vehicles for dealership'},
-
+	
 	-- 17mov_GruppeSechs
 	['gruppesechstablet'] 			 = {['name'] = 'gruppesechstablet', 				['label'] = 'Gruppe Sechs Tablet', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'gruppesechstablet.png', 		['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'A nice device that allows you to rob the gruppe sechs transports'},
 
