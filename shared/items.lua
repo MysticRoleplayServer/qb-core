@@ -1481,8 +1481,8 @@ QBShared.Items = {
 		--SNACKS
 	["crisps"] 						= {["name"] = "crisps",  	    			["label"] = "Crisps",					["weight"] = 100, 		["type"] = "item", 		["image"] = "chips.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(20, 30) },
 
-	--Rebel Money Wash
-	['wetbills'] 					= {['name'] = 'wetbills', 			  	  	['label'] = 'Wet Bills', 				['weight'] = 200, 		['type'] = 'item', 		['image'] = 'wetbills.png', 	['unique'] = true, 		['useable'] = false, 	['shouldClose'] = true,	   ['combinable'] = nil,   ['description'] = 'Money?'},
+	-- Rebel Moneywash
+	['wetbills'] 					= {['name'] = 'wetbills', ['label'] = 'Wet Bills', ['weight'] = 0, ['type'] = 'item', ['image'] = 'wetbills.png', ['unique'] = false, ['useable'] = false, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Wet unusable cash'},
 
 	--[[ITEMS FOR BUSINESS MENUS]]
 	['uwucafemenu1'] 				= {['name'] = 'uwucafemenu1', 			    ['label'] = 'Uwu Menu', 				['weight'] = 0, 		['type'] = 'item', 		['image'] = 'menu.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	   		['combinable'] = nil,   ['description'] = 'Uwu Cafe Menu!'},
@@ -1511,7 +1511,7 @@ QBShared.Items = {
     ["car_registration"]            = {["name"] = "car_registration",   ["label"] = "Car Registration",         ["weight"] = 150,         ["type"] = "item",         ["image"] = "car_registration.png",                    ["unique"] = true,       ["useable"] = true,    ["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = ""},
     ["health_insurance"]  = {["name"] = "health_insurance",   ["label"] = "Health Insurance",         ["weight"] = 150,         ["type"] = "item",        ["image"] = "health_insurance.png",               ["unique"] = true,      ["useable"] = true,    ["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = ""},
     ["home_insurance"]    = {["name"] = "home_insurance",     ["label"] = "Home Insurance",         ["weight"] = 150,         ["type"] = "item",        ["image"] = "home_insurance.png",                    ["unique"] = true,      ["useable"] = true,    ["shouldClose"] = false,    ["combinable"] = nil,   ["description"] = ""},
-	
+
 	-- qb-wallet
 	["handy_wallet"] 			 	 = {["name"] = "handy_wallet", 			["label"] = "Handy Wallet", 		["weight"] = 500, 		["type"] = "item", 		["image"] = "wallet.png", 			["unique"] = true, 		["useable"] = true, 	["shouldClose"] = false,   ["combinable"] = nil,   ["description"] = "Handy Wallet)"},
 
@@ -1677,7 +1677,7 @@ QBShared.Items = {
 	['fishingrod'] 					 = {['name'] = 'fishingrod', 				    ['label'] = 'Fishing Rod', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'fishingrod.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,		['combinable'] = nil,   ['description'] = 'A retail-grade fisherpole used for fresh and salt water fishing'},
 	['fishingbait'] 				 = {['name'] = 'fishingbait', 				    ['label'] = 'Fishing Bait', 			['weight'] = 50, 		['type'] = 'item', 		['image'] = 'fishingbait.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'A popular but fragile fish bait, cast the line once and this thing won\'t make it back!'},
     ['ifishingrod'] 				 = {['name'] = 'ifishingrod', 				    ['label'] = 'Stronger Fishing Rod', 	['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'ifishingrod.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,		['combinable'] = nil,   ['description'] = 'A commercial grade fisherpole, illegal to use by retail fisherpersons.'},
-	['ifishingbait'] 				 = {['name'] = 'ifishingbait', 				    ['label'] = 'Banned Fishing Bait', 		['weight'] = 50, 		['type'] = 'item', 		['image'] = 'ifishingbait.png', 		['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'An illegal lure due to the damage it causes even to fish that are illegal to catch.'},  
+	['ifishingbait'] 				 = {['name'] = 'ifishingbait', 				    ['label'] = 'Banned Fishing Bait', 		['weight'] = 50, 		['type'] = 'item', 		['image'] = 'ifishingbait.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'An illegal lure due to the damage it causes even to fish that are illegal to catch.'},  
     ['fish1'] 						 = {['name'] = 'fish1', 					    ['label'] = 'Carp', 					['weight'] = 150, 		['type'] = 'item', 		['image'] = 'carp.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'An oily freshwater fish from various species of the family Cyprinidae'},
 	['fish2'] 						 = {['name'] = 'fish2', 					    ['label'] = 'Salmon', 					['weight'] = 250, 		['type'] = 'item', 		['image'] = 'salmon.png', 				['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'The common name for several commercially important species of euryhaline ray-finned fish from the family Salmonidae'},
 	['fish3'] 						 = {['name'] = 'fish3', 					    ['label'] = 'Goldfish', 				['weight'] = 50, 		['type'] = 'item', 		['image'] = 'goldfish.png', 			['unique'] = false, 	['useable'] = false, 	['shouldClose'] = false,	['combinable'] = nil,   ['description'] = 'A freshwater fish in the family Cyprinidae of order Cypriniformes'},
