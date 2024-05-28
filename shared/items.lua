@@ -679,101 +679,91 @@ QBShared.Items = {
 
     ["skateboard"] 					 = {["name"] = "skateboard", 					["label"] = "Skateboard", 				["weight"] = 500, 		["type"] = "item", 		["image"] = "skateboard.png", 			["unique"] = true, 									["useable"] = true, 	["shouldClose"] = true, ["combinable"] = nil, ["description"] = "" },
 
-	--Jim-Mechanic Vehicles
-	["mechanic_tools"] =    {["name"] = "mechanic_tools",   ["label"] = "Mechanic tools",		["weight"] = 0, ["type"] = "item",  ["image"] = "mechanic_tools.png",   ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "Needed for vehicle repairs"},
-	["toolbox"] =           {["name"] = "toolbox",          ["label"] = "Toolbox",				["weight"] = 0, ["type"] = "item",  ["image"] = "toolbox.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "Needed for Performance part removal"},
-	["ducttape"] =          {["name"] = "ducttape",         ["label"] = "Duct Tape",			["weight"] = 0, ["type"] = "item",  ["image"] = "bodyrepair.png",       ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "Good for quick fixes"},
-	["mechboard"] =         {["name"] = "mechboard",        ["label"] = "Mechanic Sheet",		["weight"] = 0, ["type"] = "item",  ["image"] = "mechboard.png",        ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
+	-- [[Jim-mechanic]]
+	mechanic_tools              = { name = "mechanic_tools", label = "Mechanic tools", weight = 0, type = "item", image = "mechanic_tools.png", unique = true, useable = true, shouldClose = true, description = "Needed for vehicle repairs"},
+	toolbox                     = { name = "toolbox", label = "Toolbox", weight = 0, type = "item", image = "toolbox.png", unique = true, useable = true, shouldClose = true, description = "Needed for Performance part removal"},
+	ducttape                    = { name = "ducttape", label = "Duct Tape", weight = 0, type = "item", image = "bodyrepair.png", unique = true, useable = true, shouldClose = true, description = "Good for quick fixes"},
+	mechboard                   = { name = "mechboard", label = "Mechanic Sheet", weight = 0, type = "item", image = "mechboard.png", unique = true, useable = true, shouldClose = true, description = ""},
+	-- Nitrous/Nos
+	nos                         = { name = "nos", label = "NOS Bottle", weight = 0, type = "item", image = "nos.png", unique = true, useable = true, shouldClose = true, description = "A full bottle of NOS"},
+	noscan                      = { name = "noscan", label = "Empty NOS Bottle", weight = 0, type = "item", image = "noscan.png", unique = false, useable = true, shouldClose = true, description = "An Empty bottle of NOS"},
+	noscolour                   = { name = "noscolour", label = "NOS Colour Injector", weight = 0, type = "item", image = "noscolour.png", unique = false, useable = true, shouldClose = true, description = "Make that purge spray"},
 	--Performance
-	["turbo"] =             {["name"] = "turbo",            ["label"] = "Supercharger Turbo",	["weight"] = 0, ["type"] = "item",  ["image"] = "turbo.png",            ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "Who doesn't need a 65mm Turbo??"},
-	["car_armor"]=          {["name"] = "car_armor",		["label"] = "Vehicle Armor",		["weight"] = 0, ["type"] = "item",  ["image"] = "car_armour.png",           ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["nos"]=                {["name"] = "nos",				["label"] = "NOS Bottle",			["weight"] = 0, ["type"] = "item",  ["image"] = "nos.png",              ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = "A full bottle of NOS"},
-	["noscan"]=             {["name"] = "noscan",			["label"] = "Empty NOS Bottle",		["weight"] = 0, ["type"] = "item",  ["image"] = "noscan.png",           ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["description"] = "An Empty bottle of NOS"},
-	["noscolour"]=          {["name"] = "noscolour",		["label"] = "NOS Colour Injector",	["weight"] = 0, ["type"] = "item",  ["image"] = "noscolour.png", 		["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["description"] = "Make that purge spray"},
-
-	["engine1"]=            {["name"] = "engine1",			["label"] = "Tier 1 Engine",		["weight"] = 0, ["type"] = "item",  ["image"] = "engine1.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["engine2"]=            {["name"] = "engine2",			["label"] = "Tier 2 Engine",		["weight"] = 0, ["type"] = "item",  ["image"] = "engine2.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["engine3"]=            {["name"] = "engine3",			["label"] = "Tier 3 Engine",		["weight"] = 0, ["type"] = "item",  ["image"] = "engine3.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["engine4"]=            {["name"] = "engine4",			["label"] = "Tier 4 Engine",		["weight"] = 0, ["type"] = "item",  ["image"] = "engine4.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["engine5"]=            {["name"] = "engine5",			["label"] = "Tier 5 Engine",		["weight"] = 0, ["type"] = "item",  ["image"] = "engine5.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["transmission1"]=      {["name"] = "transmission1",    ["label"] = "Tier 1 Transmission",	["weight"] = 0, ["type"] = "item",  ["image"] = "transmission1.png",    ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["transmission2"]=      {["name"] = "transmission2",	["label"] = "Tier 2 Transmission",	["weight"] = 0, ["type"] = "item",  ["image"] = "transmission2.png",    ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["transmission3"]=      {["name"] = "transmission3",    ["label"] = "Tier 3 Transmission",	["weight"] = 0, ["type"] = "item",  ["image"] = "transmission3.png",    ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["transmission4"]=      {["name"] = "transmission4",	["label"] = "Tier 4 Transmission",	["weight"] = 0, ["type"] = "item",  ["image"] = "transmission4.png",    ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["brakes1"]=            {["name"] = "brakes1",			["label"] = "Tier 1 Brakes",		["weight"] = 0, ["type"] = "item",  ["image"] = "brakes1.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["brakes2"]=            {["name"] = "brakes2",			["label"] = "Tier 2 Brakes",		["weight"] = 0, ["type"] = "item",  ["image"] = "brakes2.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["brakes3"]=            {["name"] = "brakes3",			["label"] = "Tier 3 Brakes",		["weight"] = 0, ["type"] = "item",  ["image"] = "brakes3.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["suspension1"]=        {["name"] = "suspension1",		["label"] = "Tier 1 Suspension",	["weight"] = 0, ["type"] = "item",  ["image"] = "suspension1.png",      ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["suspension2"]=        {["name"] = "suspension2",		["label"] = "Tier 2 Suspension",	["weight"] = 0, ["type"] = "item",  ["image"] = "suspension2.png",      ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["suspension3"]=        {["name"] = "suspension3",		["label"] = "Tier 3 Suspension",	["weight"] = 0, ["type"] = "item",  ["image"] = "suspension3.png",      ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["suspension4"]=        {["name"] = "suspension4",		["label"] = "Tier 4 Suspension",	["weight"] = 0, ["type"] = "item",  ["image"] = "suspension4.png",      ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["suspension5"]=        {["name"] = "suspension5",		["label"] = "Tier 5 Suspension",	["weight"] = 0, ["type"] = "item",  ["image"] = "suspension5.png",      ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["bprooftires"]=        {["name"] = "bprooftires",		["label"] = "Bulletproof Tires",	["weight"] = 0, ["type"] = "item",  ["image"] = "bprooftires.png",      ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["drifttires"]=         {["name"] = "drifttires",		["label"] = "Drift Tires",			["weight"] = 0, ["type"] = "item",  ["image"] = "drifttires.png",       ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["oilp1"]=              {["name"] = "oilp1",			["label"] = "Tier 1 Oil Pump",		["weight"] = 0, ["type"] = "item",  ["image"] = "oilp1.png",            ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["oilp2"]=              {["name"] = "oilp2",			["label"] = "Tier 2 Oil Pump",		["weight"] = 0, ["type"] = "item",  ["image"] = "oilp2.png",            ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["oilp3"]=              {["name"] = "oilp3",			["label"] = "Tier 3 Oil Pump",		["weight"] = 0, ["type"] = "item",  ["image"] = "oilp3.png",            ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["drives1"]=            {["name"] = "drives1",			["label"] = "Tier 1 Drive Shaft",	["weight"] = 0, ["type"] = "item",  ["image"] = "drives1.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["drives2"]=            {["name"] = "drives2",			["label"] = "Tier 2 Drive Shaft",	["weight"] = 0, ["type"] = "item",  ["image"] = "drives2.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["drives3"]=            {["name"] = "drives3",			["label"] = "Tier 3 Drive Shaft",	["weight"] = 0, ["type"] = "item",  ["image"] = "drives3.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["cylind1"]=            {["name"] = "cylind1",			["label"] = "Tier 1 Cylinder Head",	["weight"] = 0, ["type"] = "item",  ["image"] = "cylind1.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["cylind2"]=            {["name"] = "cylind2",			["label"] = "Tier 2 Cylinder Head",	["weight"] = 0, ["type"] = "item",  ["image"] = "cylind2.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["cylind3"]=            {["name"] = "cylind3",			["label"] = "Tier 3 Cylinder Head",	["weight"] = 0, ["type"] = "item",  ["image"] = "cylind3.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["cables1"]=            {["name"] = "cables1",			["label"] = "Tier 1 Battery Cables",["weight"] = 0, ["type"] = "item",  ["image"] = "cables1.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["cables2"]=            {["name"] = "cables2",			["label"] = "Tier 2 Battery Cables",["weight"] = 0, ["type"] = "item",  ["image"] = "cables2.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["cables3"]=            {["name"] = "cables3",			["label"] = "Tier 3 Battery Cables",["weight"] = 0, ["type"] = "item",  ["image"] = "cables3.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["fueltank1"]=          {["name"] = "fueltank1",		["label"] = "Tier 1 Fuel Tank",     ["weight"] = 0, ["type"] = "item",  ["image"] = "fueltank1.png",        ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["fueltank2"]=          {["name"] = "fueltank2",		["label"] = "Tier 2 Fuel Tank",     ["weight"] = 0, ["type"] = "item",  ["image"] = "fueltank2.png",        ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["fueltank3"]=          {["name"] = "fueltank3",		["label"] = "Tier 3 Fuel Tank",     ["weight"] = 0, ["type"] = "item",  ["image"] = "fueltank3.png",        ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["antilag"]=            {["name"] = "antilag",		    ["label"] = "AntiLag",              ["weight"] = 0, ["type"] = "item",  ["image"] = "antiLag.png",          ["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
+	turbo                       = { name = "turbo", label = "Supercharger Turbo",	weight = 0, type = "item", image = "turbo.png", unique = true, useable = true, shouldClose = true, description = ""},
+	car_armor                   = { name = "car_armor", label = "Vehicle Armor", weight = 0, type = "item", image = "car_armour.png", unique = true, useable = true, shouldClose = true, description = ""},
+	engine1                     = { name = "engine1", label = "Tier 1 Engine", weight = 0, type = "item", image = "engine1.png", unique = true, useable = true, shouldClose = true, description = ""},
+	engine2                     = { name = "engine2", label = "Tier 2 Engine", weight = 0, type = "item", image = "engine2.png", unique = true, useable = true, shouldClose = true, description = ""},
+	engine3                     = { name = "engine3", label = "Tier 3 Engine", weight = 0, type = "item", image = "engine3.png", unique = true, useable = true, shouldClose = true, description = ""},
+	engine4                     = { name = "engine4", label = "Tier 4 Engine", weight = 0, type = "item", image = "engine4.png", unique = true, useable = true, shouldClose = true, description = ""},
+	engine5                     = { name = "engine5", label = "Tier 5 Engine", weight = 0, type = "item", image = "engine5.png", unique = true, useable = true, shouldClose = true, description = ""},
+	transmission1               = { name = "transmission1", label = "Tier 1 Transmission", weight = 0, type = "item", image = "transmission1.png", unique = true, useable = true, shouldClose = true, description = ""},
+	transmission2               = { name = "transmission2", label = "Tier 2 Transmission", weight = 0, type = "item", image = "transmission2.png", unique = true, useable = true, shouldClose = true, description = ""},
+	transmission3               = { name = "transmission3", label = "Tier 3 Transmission", weight = 0, type = "item", image = "transmission3.png", unique = true, useable = true, shouldClose = true, description = ""},
+	transmission4               = { name = "transmission4", label = "Tier 4 Transmission", weight = 0, type = "item", image = "transmission4.png", unique = true, useable = true, shouldClose = true, description = ""},
+	brakes1                     = { name = "brakes1", label = "Tier 1 Brakes", weight = 0, type = "item", image = "brakes1.png", unique = true, useable = true, shouldClose = true, description = ""},
+	brakes2                     = { name = "brakes2", label = "Tier 2 Brakes", weight = 0, type = "item", image = "brakes2.png", unique = true, useable = true, shouldClose = true, description = ""},
+	brakes3                     = { name = "brakes3", label = "Tier 3 Brakes", weight = 0, type = "item", image = "brakes3.png", unique = true, useable = true, shouldClose = true, description = ""},
+	suspension1                 = { name = "suspension1", label = "Tier 1 Suspension", weight = 0, type = "item", image = "suspension1.png", unique = true, useable = true, shouldClose = true, description = ""},
+	suspension2                 = { name = "suspension2", label = "Tier 2 Suspension", weight = 0, type = "item", image = "suspension2.png", unique = true, useable = true, shouldClose = true, description = ""},
+	suspension3                 = { name = "suspension3", label = "Tier 3 Suspension", weight = 0, type = "item", image = "suspension3.png", unique = true, useable = true, shouldClose = true, description = ""},
+	suspension4                 = { name = "suspension4", label = "Tier 4 Suspension", weight = 0, type = "item", image = "suspension4.png", unique = true, useable = true, shouldClose = true, description = ""},
+	suspension5                 = { name = "suspension5", label = "Tier 5 Suspension", weight = 0, type = "item", image = "suspension5.png", unique = true, useable = true, shouldClose = true, description = ""},
+	-- Tire Style Changers
+	bprooftires                 = { name = "bprooftires", label = "Bulletproof Tires", weight = 0, type = "item", image = "bprooftires.png", unique = true, useable = true, shouldClose = true, description = ""},
+	drifttires                  = { name = "drifttires", label = "Drift Tires", weight = 0, type = "item", image = "drifttires.png", unique = true, useable = true, shouldClose = true, description = ""},
+	-- Vehicle Extra Damage Items
+	oilp1                       = { name = "oilp1", label = "Tier 1 Oil Pump", weight = 0, type = "item", image = "oilp1.png", unique = true, useable = true, shouldClose = true, description = ""},
+	oilp2                       = { name = "oilp2", label = "Tier 2 Oil Pump", weight = 0, type = "item", image = "oilp2.png", unique = true, useable = true, shouldClose = true, description = ""},
+	oilp3                       = { name = "oilp3", label = "Tier 3 Oil Pump", weight = 0, type = "item", image = "oilp3.png", unique = true, useable = true, shouldClose = true, description = ""},
+	drives1                     = { name = "drives1", label = "Tier 1 Drive Shaft", weight = 0, type = "item", image = "drives1.png", unique = true, useable = true, shouldClose = true, description = ""},
+	drives2                     = { name = "drives2", label = "Tier 2 Drive Shaft", weight = 0, type = "item", image = "drives2.png", unique = true, useable = true, shouldClose = true, description = ""},
+	drives3                     = { name = "drives3", label = "Tier 3 Drive Shaft", weight = 0, type = "item", image = "drives3.png", unique = true, useable = true, shouldClose = true, description = ""},
+	cylind1                     = { name = "cylind1", label = "Tier 1 Cylinder Head",	weight = 0, type = "item", image = "cylind1.png", unique = true, useable = true, shouldClose = true, description = ""},
+	cylind2                     = { name = "cylind2", label = "Tier 2 Cylinder Head",	weight = 0, type = "item", image = "cylind2.png", unique = true, useable = true, shouldClose = true, description = ""},
+	cylind3                     = { name = "cylind3", label = "Tier 3 Cylinder Head",	weight = 0, type = "item", image = "cylind3.png", unique = true, useable = true, shouldClose = true, description = ""},
+	cables1                     = { name = "cables1", label = "Tier 1 Battery Cables", weight = 0, type = "item", image = "cables1.png", unique = true, useable = true, shouldClose = true, description = ""},
+	cables2                     = { name = "cables2", label = "Tier 2 Battery Cables", weight = 0, type = "item", image = "cables2.png", unique = true, useable = true, shouldClose = true, description = ""},
+	cables3                     = { name = "cables3", label = "Tier 3 Battery Cables", weight = 0, type = "item", image = "cables3.png", unique = true, useable = true, shouldClose = true, description = ""},
+	fueltank1                   = { name = "fueltank1", label = "Tier 1 Fuel Tank", weight = 0, type = "item", image = "fueltank1.png", unique = true, useable = true, shouldClose = true, description = ""},
+	fueltank2                   = { name = "fueltank2", label = "Tier 2 Fuel Tank", weight = 0, type = "item", image = "fueltank2.png", unique = true, useable = true, shouldClose = true, description = ""},
+	fueltank3                   = { name = "fueltank3", label = "Tier 3 Fuel Tank", weight = 0, type = "item", image = "fueltank3.png", unique = true, useable = true, shouldClose = true, description = ""},
+	antilag                     = { name = "antilag", label = "AntiLag", weight = 0, type = "item", image = "antiLag.png", unique = true, useable = true, shouldClose = true, description = ""},
 	--Cosmetics
-	["underglow_controller"]={["name"] = "underglow_controller",["label"] = "Neon Controller",	["weight"] = 0, ["type"] = "item",  ["image"] = "underglow_controller.png", ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["description"] = "RGB LED Vehicle Remote"},
-	["headlights"]=         {["name"] = "headlights",       ["label"] = "Xenon Headlights",		["weight"] = 0, ["type"] = "item",  ["image"] = "headlights.png",       ["unique"] = true, 	["useable"] = true, ["shouldClose"] = true, ["description"] = "8k HID headlights"},
-
-	["tint_supplies"]=      {["name"] = "tint_supplies",    ["label"] = "Tint Supplies",		["weight"] = 0, ["type"] = "item",  ["image"] = "tint_supplies.png",    ["unique"] = false, ["useable"] = true, ["shouldClose"] = true, ["description"] = "Supplies for window tinting"},
-
-	["customplate"]=        {["name"] = "customplate",      ["label"] = "Customized Plates",	["weight"] = 0, ["type"] = "item",  ["image"] = "plate.png", 			["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["hood"]=               {["name"] = "hood",             ["label"] = "Vehicle Hood",			["weight"] = 0, ["type"] = "item",  ["image"] = "hood.png", 			["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["roof"]=               {["name"] = "roof",             ["label"] = "Vehicle Roof",			["weight"] = 0, ["type"] = "item",  ["image"] = "roof.png", 			["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["spoiler"]=            {["name"] = "spoiler",          ["label"] = "Vehicle Spoiler",		["weight"] = 0, ["type"] = "item",  ["image"] = "spoiler.png", 			["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["bumper"]=             {["name"] = "bumper",           ["label"] = "Vehicle Bumper",		["weight"] = 0, ["type"] = "item",  ["image"] = "bumper.png", 			["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["skirts"]=             {["name"] = "skirts",           ["label"] = "Vehicle Skirts",		["weight"] = 0, ["type"] = "item",  ["image"] = "skirts.png", 			["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["exhaust"]=            {["name"] = "exhaust",          ["label"] = "Vehicle Exhaust",		["weight"] = 0, ["type"] = "item",  ["image"] = "exhaust.png", 			["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["seat"]=               {["name"] = "seat",             ["label"] = "Seat Cosmetics",		["weight"] = 0, ["type"] = "item",  ["image"] = "seat.png", 			["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["rollcage"]=           {["name"] = "rollcage",         ["label"] = "Roll Cage",			["weight"] = 0, ["type"] = "item",  ["image"] = "rollcage.png", 		["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["rims"]=               {["name"] = "rims",             ["label"] = "Custom Wheel Rims",	["weight"] = 0, ["type"] = "item",  ["image"] = "rims.png", 			["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["livery"]=             {["name"] = "livery",           ["label"] = "Livery Roll",			["weight"] = 0, ["type"] = "item",  ["image"] = "livery.png", 			["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["paintcan"]=           {["name"] = "paintcan",         ["label"] = "Vehicle Spray Can",	["weight"] = 0, ["type"] = "item",  ["image"] = "spraycan.png", 		["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["tires"]=              {["name"] = "tires",            ["label"] = "Drift Smoke Tires",	["weight"] = 0, ["type"] = "item",  ["image"] = "tires.png", 	  		["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["horn"]=               {["name"] = "horn",             ["label"] = "Custom Vehicle Horn",	["weight"] = 0, ["type"] = "item",  ["image"] = "horn.png", 			["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
-	["internals"] =         {["name"] = "internals",        ["label"] = "Internal Cosmetics",	["weight"] = 0, ["type"] = "item",  ["image"] = "internals.png", 		["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-	["externals"] =         {["name"] = "externals",        ["label"] = "Exterior Cosmetics",	["weight"] = 0, ["type"] = "item",  ["image"] = "mirror.png", 			["unique"] = true,  ["useable"] = true, ["shouldClose"] = true, ["description"] = ""},
-
+	underglow_controller        = { name = "underglow_controller", label = "Neon Controller", weight = 0, type = "item", image = "underglow_controller.png", unique = false, useable = true, shouldClose = true, description = "RGB LED Vehicle Remote"},
+	headlights                  = { name = "headlights", label = "Xenon Headlights", weight = 0, type = "item", image = "headlights.png", unique = true, useable = true, shouldClose = true, description = ""},
+	tint_supplies               = { name = "tint_supplies", label = "Window Tint Kit", weight = 0, type = "item", image = "tint_supplies.png", unique = false, useable = true, shouldClose = true, description = "Supplies for window tinting"},
+	customplate                 = { name = "customplate", label = "Customized Plates", weight = 0, type = "item", image = "plate.png", unique = true, useable = true, shouldClose = true, description = ""},
+	hood                        = { name = "hood", label = "Vehicle Hood", weight = 0, type = "item", image = "hood.png", unique = true, useable = true, shouldClose = true, description = ""},
+	roof                        = { name = "roof", label = "Vehicle Roof", weight = 0, type = "item", image = "roof.png", unique = true, useable = true, shouldClose = true, description = ""},
+	spoiler                     = { name = "spoiler", label = "Vehicle Spoiler", weight = 0, type = "item", image = "spoiler.png", unique = true, useable = true, shouldClose = true, description = ""},
+	bumper                      = { name = "bumper", label = "Vehicle Bumper", weight = 0, type = "item", image = "bumper.png", unique = true, useable = true, shouldClose = true, description = ""},
+	skirts                      = { name = "skirts", label = "Vehicle Skirts", weight = 0, type = "item", image = "skirts.png", unique = true, useable = true, shouldClose = true, description = ""},
+	exhaust                     = { name = "exhaust", label = "Vehicle Exhaust", weight = 0, type = "item", image = "exhaust.png", unique = true, useable = true, shouldClose = true, description = ""},
+	seat                        = { name = "seat", label = "Seat Cosmetics", weight = 0, type = "item", image = "seat.png", unique = true, useable = true, shouldClose = true, description = ""},
+	rollcage                    = { name = "rollcage", label = "Roll Cage", weight = 0, type = "item", image = "rollcage.png", unique = true, useable = true, shouldClose = true, description = ""},
+	rims                        = { name = "rims", label = "Custom Wheel Rims", weight = 0, type = "item", image = "rims.png", unique = true, useable = true, shouldClose = true, description = ""},
+	livery                      = { name = "livery", label = "Livery Roll", weight = 0, type = "item", image = "livery.png", unique = true, useable = true, shouldClose = true, description = ""},
+	paintcan                    = { name = "paintcan", label = "Vehicle Spray Can", weight = 0, type = "item", image = "spraycan.png", unique = true, useable = true, shouldClose = true, description = ""},
+	tires                       = { name = "tires", label = "Drift Smoke Tires",	weight = 0, type = "item", image = "tires.png", unique = true, useable = true, shouldClose = true, description = ""},
+	horn                        = { name = "horn", label = "Custom Vehicle Horn",	weight = 0, type = "item", image = "horn.png", unique = true, useable = true, shouldClose = true, description = ""},
+	internals                   = { name = "internals", label = "Internal Cosmetics",	weight = 0, type = "item", image = "internals.png", unique = true, useable = true, shouldClose = true, description = ""},
+	externals                   = { name = "externals", label = "Exterior Cosmetics",	weight = 0, type = "item", image = "mirror.png", unique = true, useable = true, shouldClose = true, description = ""},
 	--Repair Parts
-	["newoil"] =            {["name"] = "newoil",           ["label"] = "Car Oil",				["weight"] = 0, ["type"] = "item",  ["image"] = "caroil.png",           ["unique"] = false, ["useable"] = false,["shouldClose"] = false,["description"] = ""},
-	["sparkplugs"]=         {["name"] = "sparkplugs",       ["label"] = "Spark Plugs",			["weight"] = 0, ["type"] = "item",  ["image"] = "sparkplugs.png",       ["unique"] = false, ["useable"] = false,["shouldClose"] = false,["description"] = ""},
-	["carbattery"]=         {["name"] = "carbattery",       ["label"] = "Car Battery",			["weight"] = 0, ["type"] = "item",  ["image"] = "carbattery.png",       ["unique"] = false, ["useable"] = false,["shouldClose"] = false,["description"] = ""},
-	["axleparts"]=          {["name"] = "axleparts",        ["label"] = "Axle Parts",			["weight"] = 0, ["type"] = "item",  ["image"] = "axleparts.png",        ["unique"] = false, ["useable"] = false,["shouldClose"] = false,["description"] = ""},
-	["sparetire"]=          {["name"] = "sparetire",        ["label"] = "Spare Tire",			["weight"] = 0, ["type"] = "item",  ["image"] = "sparetire.png",        ["unique"] = true,  ["useable"] = false,["shouldClose"] = false,["description"] = ""},   
-
---[[Simple Farming]]
+	newoil                      = { name = "newoil", label = "Car Oil", weight = 0, type = "item", image = "caroil.png", unique = false, useable = false, shouldClose = false, description = ""},
+	sparkplugs                  = { name = "sparkplugs", label = "Spark Plugs", weight = 0, type = "item", image = "sparkplugs.png", unique = false, useable = false, shouldClose = false, description = ""},
+	carbattery                  = { name = "carbattery", label = "Car Battery", weight = 0, type = "item", image = "carbattery.png", unique = false, useable = false, shouldClose = false, description = ""},
+	axleparts                   = { name = "axleparts", label = "Axle Parts", weight = 0, type = "item", image = "axleparts.png", unique = false, useable = false, shouldClose = false, description = ""},
+	sparetire                   = { name = "sparetire", label = "Spare Tire", weight = 0, type = "item", image = "sparetire.png", unique = true, useable = false, shouldClose = false, description = ""},
+	manual                      = { name = 'manual', label = 'Manual Transmission', weight = 0, type = 'item', image = 'manual.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Manual Transmission change for vehicles' },
+	underglow                   = { name = 'underglow', label = 'Underglow LEDS', weight = 0, type = 'item', image = 'underglow.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Underglow addition for vehicles' },
+	
+	--Already in QBCore
+	--harness                      = { name = 'harness', label = 'Race Harness', weight = 1000, type = 'item', image = 'harness.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'Racing Harness so no matter what you stay in the car' },
+	--repairkit                    = { name = 'repairkit', label = 'Repairkit', weight = 2500, type = 'item', image = 'repairkit.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A nice toolbox with stuff to repair your vehicle' },
+	--advancedrepairkit            = { name = 'advancedrepairkit', label = 'Advanced Repairkit', weight = 4000, type = 'item', image = 'advancedkit.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A nice toolbox with stuff to repair your vehicle' },
+	--cleaningkit                  = { name = 'cleaningkit', label = 'Cleaning Kit', weight = 250, type = 'item', image = 'cleaningkit.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'A microfiber cloth with some soap will let your car sparkle again!' },
+	
+	--[[Simple Farming]]
 	["apple"] 							= {["name"] = "apple",  	     		["label"] = "Apple",	 		["weight"] = 25, 		["type"] = "item", 		["image"] = "apple.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
 	["apple_juice"] 					= {["name"] = "apple_juice",  	     	["label"] = "Apple Juice",	 	["weight"] = 100, 		["type"] = "item", 		["image"] = "apple_juice.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
 	["emptycowbucket"] 					= {["name"] = "emptycowbucket",  	    ["label"] = "Empty Bucket",	 	["weight"] = 25, 		["type"] = "item", 		["image"] = "emptybucket.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = ""},
@@ -866,58 +856,58 @@ QBShared.Items = {
 
 	["lettuce"] 	 			 	 = {["name"] = "lettuce",       			["label"] = "Lettuce",	 				["weight"] = 100, 		["type"] = "item", 		["image"] = "lettuce.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "Some big taco brother"},
 
-    --[[CATCAFE]]
-	["bmochi"] 						= {["name"] = "bmochi",  	     			["label"] = "Blue Mochi",	 			["weight"] = 100, 		["type"] = "item", 		["image"] = "mochiblue.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["pmochi"] 						= {["name"] = "pmochi",  	     			["label"] = "Pink Mochi",	 			["weight"] = 100, 		["type"] = "item", 		["image"] = "mochipink.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["gmochi"] 						= {["name"] = "gmochi",  	     			["label"] = "Green Mochi",	 			["weight"] = 100, 		["type"] = "item", 		["image"] = "mochigreen.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["omochi"] 						= {["name"] = "omochi",  	     			["label"] = "Orange Mochi",	 			["weight"] = 100, 		["type"] = "item", 		["image"] = "mochiorange.png",		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
+	--JIM-CATCAFE
+	bmochi                      = { name = "bmochi", label = "Blue Mochi", weight = 100, type = "item", image = "mochiblue.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	pmochi                      = { name = "pmochi", label = "Pink Mochi", weight = 100, type = "item", image = "mochipink.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	gmochi                      = { name = "gmochi", label = "Green Mochi", weight = 100, type = "item", image = "mochigreen.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	omochi                      = { name = "omochi", label = "Orange Mochi", weight = 100, type = "item", image = "mochiorange.png",		unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
 
 	--Drinks
-	["bobatea"] 					= {["name"] = "bobatea",  	     			["label"] = "Boba Tea",	 				["weight"] = 100, 		["type"] = "item", 		["image"] = "bubbletea.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['thirst'] = math.random(40, 50) },
-	["bbobatea"] 					= {["name"] = "bbobatea",  	     			["label"] = "Blue Boba Tea",	 		["weight"] = 100, 		["type"] = "item", 		["image"] = "bubbleteablue.png",	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['thirst'] = math.random(40, 50) },
-	["gbobatea"] 					= {["name"] = "gbobatea",  	     			["label"] = "Green Boba Tea",	 		["weight"] = 100, 		["type"] = "item", 		["image"] = "bubbleteagreen.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['thirst'] = math.random(40, 50) },
-	["pbobatea"] 					= {["name"] = "pbobatea",  	     			["label"] = "Pink Boba Tea",	 		["weight"] = 100, 		["type"] = "item", 		["image"] = "bubbleteapink.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['thirst'] = math.random(40, 50) },
-	["obobatea"] 					= {["name"] = "obobatea",  	     			["label"] = "Orange Boba Tea",	 		["weight"] = 100, 		["type"] = "item", 		["image"] = "bubbleteaorange.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['thirst'] = math.random(40, 50) },
+	bobatea                     = { name = "bobatea", label = "Boba Tea", weight = 100, type = "item", image = "bubbletea.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(40, 50) },
+	bbobatea                    = { name = "bbobatea", label = "Blue Boba Tea", weight = 100, type = "item", image = "bubbleteablue.png",	unique = false, usable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(40, 50) },
+	gbobatea                    = { name = "gbobatea", label = "Green Boba Tea", weight = 100, type = "item", image = "bubbleteagreen.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(40, 50) },
+	pbobatea                    = { name = "pbobatea", label = "Pink Boba Tea", weight = 100, type = "item", image = "bubbleteapink.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(40, 50) },
+	obobatea                    = { name = "obobatea", label = "Orange Boba Tea", weight = 100, type = "item", image = "bubbleteaorange.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(40, 50) },
 
-	["nekolatte"] 					= {["name"] = "nekolatte",  	     		["label"] = "Neko Latte",	 			["weight"] = 100, 		["type"] = "item", 		["image"] = "latte.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['thirst'] = math.random(40, 50) },
-	["catcoffee"] 					= {["name"] = "catcoffee",  	     		["label"] = "Cat Coffee",	 			["weight"] = 100, 		["type"] = "item", 		["image"] = "catcoffee.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['thirst'] = math.random(10, 20) },
+	nekolatte                   = { name = "nekolatte", label = "Neko Latte", weight = 100, type = "item", image = "latte.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(20, 30) },
+	catcoffee                   = { name = "catcoffee", label = "Cat Coffee", weight = 100, type = "item", image = "catcoffee.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(20, 30) },
 
-	["sake"] 						= {["name"] = "sake",  	     				["label"] = "Sake",	 					["weight"] = 100, 		["type"] = "item", 		["image"] = "sake.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['thirst'] = math.random(40, 50) },
+	sake                        = { name = "sake", label = "Sake", weight = 100, type = "item", image = "sake.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(40, 50) },
 
-	["miso"] 						= {["name"] = "miso",  	    	 			["label"] = "Miso Soup",		 		["weight"] = 100, 		["type"] = "item", 		["image"] = "miso.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["cake"] 						= {["name"] = "cake",  	     				["label"] = "Strawberry Cake",	 		["weight"] = 100, 		["type"] = "item", 		["image"] = "cake.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["bento"] 						= {["name"] = "bento",  	     			["label"] = "Bento Box",		 		["weight"] = 500, 		["type"] = "item", 		["image"] = "bento.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
+	miso                        = { name = "miso", label = "Miso Soup", weight = 100, type = "item", image = "miso.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	cake                        = { name = "cake", label = "Strawberry Cake", weight = 100, type = "item", image = "cake.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	bento                       = { name = "bento", label = "Bento Box", weight = 500, type = "item", image = "bento.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
 
-	["riceball"] 					= {["name"] = "riceball",  	     			["label"] = "Neko Onigiri",	 			["weight"] = 100, 		["type"] = "item", 		["image"] = "catrice.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
+	riceball                    = { name = "riceball", label = "Neko Onigiri", weight = 100, type = "item", image = "catrice.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
 
-	["nekocookie"] 					= {["name"] = "nekocookie",  	     		["label"] = "Neko Cookie",	 			["weight"] = 100, 		["type"] = "item", 		["image"] = "catcookie.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["nekodonut"] 					= {["name"] = "nekodonut",  	     		["label"] = "Neko Donut",	 			["weight"] = 100, 		["type"] = "item", 		["image"] = "catdonut.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
+	nekocookie                  = { name = "nekocookie", label = "Neko Cookie", weight = 100, type = "item", image = "catcookie.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	nekodonut                   = { name = "nekodonut", label = "Neko Donut", weight = 100, type = "item", image = "catdonut.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
 
 	--Ingredients
-	["boba"] 						= {["name"] = "boba",  			     		["label"] = "Boba",	 					["weight"] = 100, 		["type"] = "item", 		["image"] = "boba.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["flour"] 						= {["name"] = "flour",  			     	["label"] = "Flour",					["weight"] = 100, 		["type"] = "item", 		["image"] = "flour.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["rice"] 						= {["name"] = "rice",  			     		["label"] = "Bowl of Rice",	 			["weight"] = 100, 		["type"] = "item", 		["image"] = "rice.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["sugar"] 						= {["name"] = "sugar",  			     	["label"] = "Sugar",	 				["weight"] = 100, 		["type"] = "item", 		["image"] = "sugar.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["nori"] 						= {["name"] = "nori",  			    	 	["label"] = "Nori",		 				["weight"] = 100, 		["type"] = "item", 		["image"] = "nori.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "" },
-	["blueberry"] 					= {["name"] = "blueberry",  			    ["label"] = "Blueberry",		 		["weight"] = 100, 		["type"] = "item", 		["image"] = "blueberry.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["strawberry"] 					= {["name"] = "strawberry",  			    ["label"] = "Strawberry",		 		["weight"] = 100, 		["type"] = "item", 		["image"] = "strawberry.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["orange"] 				 		= {["name"] = "orange",  	     			["label"] = "Orange",	 				["weight"] = 200, 		["type"] = "item", 		["image"] = "orange.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false,   	["combinable"] = nil,   ["description"] = "An Orange." },
-	["mint"] 						= {["name"] = "mint",  			    	 	["label"] = "Matcha",		 			["weight"] = 100, 		["type"] = "item", 		["image"] = "matcha.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "" },
-	["tofu"] 						= {["name"] = "tofu",  			    	 	["label"] = "Tofu",		 				["weight"] = 100, 		["type"] = "item", 		["image"] = "tofu.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
+	boba                        = { name = "boba", label = "Boba", weight = 100, type = "item", image = "boba.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	flour                       = { name = "flour", label = "Flour", weight = 100, type = "item", image = "flour.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	rice                        = { name = "rice", label = "Bowl of Rice", weight = 100, type = "item", image = "rice.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	sugar                       = { name = "sugar", label = "Sugar", weight = 100, type = "item", image = "sugar.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	nori                        = { name = "nori", label = "Nori", weight = 100, type = "item", image = "nori.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "" },
+	blueberry                   = { name = "blueberry", label = "Blueberry", weight = 100, type = "item", image = "blueberry.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	strawberry                  = { name = "strawberry", label = "Strawberry", weight = 100, type = "item", image = "strawberry.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	orange                      = { name = "orange", label = "Orange", weight = 200, type = "item", image = "orange.png", unique = false, usable = false, shouldClose = false, combinable = nil, description = "An Orange." },
+	mint                        = { name = "mint", label = "Matcha", weight = 100, type = "item", image = "matcha.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "" },
+	tofu                        = { name = "tofu", label = "Tofu", weight = 100, type = "item", image = "tofu.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
 
-	["mocha"] 						= {["name"] = "mocha",  	     			["label"] = "Mocha Meow",	 			["weight"] = 100, 		["type"] = "item", 		["image"] = "mochameow.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['thirst'] = math.random(40, 50) },
+	mocha                       = { name = "mocha", label = "Mocha Meow", weight = 100, type = "item", image = "mochameow.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", thirst = math.random(40, 50) },
 
-	["cakepop"] 					= {["name"] = "cakepop",  	    	 		["label"] = "Cat Cake-Pop",		 		["weight"] = 100, 		["type"] = "item", 		["image"] = "cakepop.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["pancake"] 					= {["name"] = "pancake",  	     			["label"] = "PawCake",	 				["weight"] = 100, 		["type"] = "item", 		["image"] = "pawcakes.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["pizza"] 						= {["name"] = "pizza",  	     			["label"] = "Kitty Pizza",		 		["weight"] = 100, 		["type"] = "item", 		["image"] = "catpizza.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["purrito"] 					= {["name"] = "purrito",  	     			["label"] = "Purrito",	 				["weight"] = 100, 		["type"] = "item", 		["image"] = "purrito.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
+	cakepop                     = { name = "cakepop", label = "Cat Cake-Pop", weight = 100, type = "item", image = "cakepop.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	pancake                     = { name = "pancake", label = "PawCake", weight = 100, type = "item", image = "pawcakes.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	pizza                       = { name = "pizza", label = "Kitty Pizza", weight = 100, type = "item", image = "catpizza.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	purrito                     = { name = "purrito", label = "Purrito", weight = 100, type = "item", image = "purrito.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
 
-	["noodlebowl"] 					= {["name"] = "noodlebowl",  	     		["label"] = "Bowl of Noodles",	 		["weight"] = 100, 		["type"] = "item", 		["image"] = "noodlebowl.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
-	["noodles"] 					= {["name"] = "noodles",  	     			["label"] = "Instant Noodles",	 		["weight"] = 100, 		["type"] = "item", 		["image"] = "noodles.png", 		["unique"] = false, 	["useable"] = false, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "" },
-	["ramen"]						= {["name"] = "ramen",  	     			["label"] = "Bowl of Ramen",	 		["weight"] = 100, 		["type"] = "item", 		["image"] = "ramen.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
+	noodlebowl                  = { name = "noodlebowl", label = "Bowl of Noodles", weight = 100, type = "item", image = "noodlebowl.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
+	noodles                     = { name = "noodles", label = "Instant Noodles", weight = 100, type = "item", image = "noodles.png", unique = false, usable = false, shouldClose = true, combinable = nil, description = "" },
+	ramen						= { name = "ramen", label = "Bowl of Ramen", weight = 100, type = "item", image = "ramen.png", unique = false, usable = true, shouldClose = true, combinable = nil, description = "", hunger= math.random(40, 50) },
 
-    ["milk"]                        = {["name"] = "milk",                       ["label"] = "Milk",                     ["weight"] = 300,       ["type"] = "item",      ["image"] = "burger-milk.png",  ["unique"] = false,     ["useable"] = true,     ["shouldClose"] = true,     ["combinable"] = nil,    ["description"] = "Carton of Milk", ['thirst'] = math.random(35, 54) },
-    ["onion"]                       = {["name"] = "onion",                      ["label"] = "Onion",                    ["weight"] = 500,       ["type"] = "item",      ["image"] = "burger-onion.png", ["unique"] = false,     ["useable"] = false,    ["shouldClose"] = false,    ["combinable"] = nil,    ["description"] = "An onion"},
+	milk                        = { name = "milk", label = "Milk", weight = 300, type = "item",  image = "burger-milk.png",  unique = false,   usable = true,   shouldClose = true,   combinable = nil,  description = "Carton of Milk", thirst = math.random(35, 54) },
+	onion                       = { name = "onion", label = "Onion", weight = 500, type = "item",  image = "burger-onion.png", unique = false,   usable = false,  shouldClose = false,  combinable = nil,  description = "An onion"},
 
     --[[Jim-Popsdiner]]
 	["baconeggs"] 					= {["name"] = "baconeggs",  	    		["label"] = "Bacon and Eggs",			["weight"] = 100, 		["type"] = "item", 		["image"] = "baconeggs.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['hunger'] = math.random(40, 50) },
