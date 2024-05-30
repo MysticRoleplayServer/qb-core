@@ -65,7 +65,7 @@ QBConfig.Player.PlayerDefaults = {
             distance = 0,
             pristine = 0
         },
-        communityservice = 0 -- qb-community-service
+        communityservice = 0, -- qb-community-service
         hunger = 100,
         thirst = 100,
         stress = 0,
