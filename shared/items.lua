@@ -2237,4 +2237,7 @@ QBShared.Items = {
 	-- lbphone
 	['powerbank']                    = {['name'] = 'powerbank',                     ['label'] = 'Power Bank',                   ['weight'] = 200,       ['type'] = 'item',      ['image'] = 'powerbank.png',            ['unique'] = true,      ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Unglaubliches, mobiles Ladegerät!'},
 	
+	-- beanbagshotgun
+	['weapon_beanbagshotgun'] 			 = {['name'] = 'weapon_beanbagshotgun', 		 	  	['label'] = 'Non-Lethal Shotgun', 			    ['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_beanbagshotgun.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A Non-lethal version of the Remington 870'},
+	
 }
