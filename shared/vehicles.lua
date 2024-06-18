@@ -742,6 +742,22 @@ local Vehicles = {
     { model = 'openwheel1',    name = 'BR8',                           brand = 'Benefactor',      price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'none' },
     { model = 'formula2',      name = 'R88',                           brand = 'Ocelot',          price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'none' },
     { model = 'formula',       name = 'PR4',                           brand = 'Progen',          price = 100000,  category = 'openwheel',      type = 'automobile', shop = 'none' },
+    --- Custom Emergency
+    { model = 'Code311cvpi',      name = '2011 Crown Vic',             brand = 'Ford',            price = 26000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'Code314tahoe',     name = '2014 Tahoe',                 brand = 'Chevy',           price = 32000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'Code316FPIU',      name = '2016 Explorer',              brand = 'Ford',            price = 38000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'boattrailer',      name = 'Boat Trailer',               brand = 'Trailer',         price = 1000,    category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'Code3Bike1',       name = 'Kawasaki Motorcycle',        brand = 'Kawasaki',        price = 75000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'Code3Bike2',       name = 'BMW Motorcycle',             brand = 'BMW',             price = 75000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'Code3F150',        name = 'F150',                       brand = 'Ford',            price = 44000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'Code318Charger',   name = '2018 Charger',               brand = 'Dodge',           price = 50000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'Code318Chargerk9', name = '2018 Charger K9',            brand = 'Dodge',           price = 50000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'Code316Taurus',    name = '2015 Taurus',                brand = 'Ford',            price = 48000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'Code320tahoe',     name = '2020 Tahoe',                 brand = 'Chevy',           price = 52000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'Code320tahoek9',   name = '2020 Tahoe K9',              brand = 'Chevy',           price = 52000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'Code321Durango',   name = '2021 Durango',               brand = 'Dodge',           price = 58000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'Code321Tahoe',     name = '2021 Tahoe',                 brand = 'Chevy',           price = 58000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'Code3Mustang',     name = 'Mustang',                    brand = 'Ford',            price = 95000,   category = 'emergency',      type = 'automobile', shop = 'none' },
 }
 
 for i = 1, #Vehicles do
