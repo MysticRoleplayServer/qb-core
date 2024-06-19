@@ -322,10 +322,10 @@ QBShared.Items = {
     veh_plates                   = { name = 'veh_plates', label = 'Plates', weight = 1000, type = 'item', image = 'veh_plates.png', unique = false, useable = true, shouldClose = true, description = 'Install vehicle plates' },
 
     -- Medication
-    firstaid                     = { name = 'firstaid', label = 'First Aid', weight = 2500, type = 'item', image = 'firstaid.png', unique = false, useable = true, shouldClose = true, description = 'You can use this First Aid kit to get people back on their feet' },
-    bandage                      = { name = 'bandage', label = 'Bandage', weight = 0, type = 'item', image = 'bandage.png', unique = false, useable = true, shouldClose = true, description = 'A bandage works every time' },
-    ifaks                        = { name = 'ifaks', label = 'ifaks', weight = 200, type = 'item', image = 'ifaks.png', unique = false, useable = true, shouldClose = true, description = 'ifaks for healing and a complete stress remover.' },
-    painkillers                  = { name = 'painkillers', label = 'Painkillers', weight = 0, type = 'item', image = 'painkillers.png', unique = false, useable = true, shouldClose = true, description = 'For pain you can\'t stand anymore, take this pill that\'d make you feel great again' },
+    -- firstaid                     = { name = 'firstaid', label = 'First Aid', weight = 2500, type = 'item', image = 'firstaid.png', unique = false, useable = true, shouldClose = true, description = 'You can use this First Aid kit to get people back on their feet' },
+    -- bandage                      = { name = 'bandage', label = 'Bandage', weight = 0, type = 'item', image = 'bandage.png', unique = false, useable = true, shouldClose = true, description = 'A bandage works every time' },
+    -- ifaks                        = { name = 'ifaks', label = 'ifaks', weight = 200, type = 'item', image = 'ifaks.png', unique = false, useable = true, shouldClose = true, description = 'ifaks for healing and a complete stress remover.' },
+    -- painkillers                  = { name = 'painkillers', label = 'Painkillers', weight = 0, type = 'item', image = 'painkillers.png', unique = false, useable = true, shouldClose = true, description = 'For pain you can\'t stand anymore, take this pill that\'d make you feel great again' },
     walkstick                    = { name = 'walkstick', label = 'Walking Stick', weight = 1000, type = 'item', image = 'walkstick.png', unique = false, useable = true, shouldClose = true, description = 'Walking stick for ya\'ll grannies out there.. HAHA' },
 
     -- Communication
@@ -385,7 +385,7 @@ QBShared.Items = {
 	
 	--Added Items
 	['driving_test_permit'] 		 = {['name'] = 'driving_test_permit', 			['label'] = 'Driving Test Permit', 		['weight'] = 200, 		['type'] = 'item', 		['image'] = 'driving_test_permit.png',  ['unique'] = true, 		['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Permit for Driving Test'},
-	['ifaks'] 		 	 		 	 = {['name'] = 'ifaks', 						['label'] = 'IFAKS', 					['weight'] = 25, 		['type'] = 'item', 		['image'] = 'ifak.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Individual First-Aid Kit'},
+	-- ['ifaks'] 		 	 		 	 = {['name'] = 'ifaks', 						['label'] = 'IFAKS', 					['weight'] = 25, 		['type'] = 'item', 		['image'] = 'ifak.png', 				['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'Individual First-Aid Kit'},
 	
     --[[Jim-Mining]]
 	["stone"] 		 	 			 = {["name"] = "stone",           				["label"] = "Stone",	 				["weight"] = 1200, 	    ["type"] = "item", 		["image"] = "stone.png", 				["unique"] = false, 	["useable"] = false, 	["shouldClose"] = false, ["combinable"] = nil,   ["description"] = "Stone woo"},
@@ -1082,7 +1082,7 @@ QBShared.Items = {
 	['heroinbase'] 				 	 = {['name'] = 'heroinbase', 					['label'] = 'Heroin Base', 				['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'heroinbase.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,   ['description'] = 'Heroin base. Refine this into heroin powder.'},
 	['sterilewater'] 			 	 = {['name'] = 'sterilewater', 					['label'] = 'Sterile Water', 			['weight'] = 50, 		['type'] = 'item', 		['image'] = 'sterilewater.png', 		['unique'] = false,    	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,   ['description'] = 'A vial of sterile water for injecting meds.'},
 	-- Drugs
-	['morphine'] 			 		 = {['name'] = 'morphine', 						['label'] = 'Morphine', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'morphine.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,   ['description'] = 'Morphine. Good for pain but also a good time!'},
+	-- ['morphine'] 			 		 = {['name'] = 'morphine', 						['label'] = 'Morphine', 				['weight'] = 100, 		['type'] = 'item', 		['image'] = 'morphine.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,   ['description'] = 'Morphine. Good for pain but also a good time!'},
 	['morphinebaggy'] 			 	 = {['name'] = 'morphinebaggy', 				['label'] = 'Bag of Morphine', 			['weight'] = 100, 		['type'] = 'item', 		['image'] = 'morphinebaggy.png', 		['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,   ['description'] = 'A baggy of morphine.'},
 	['heroin_1oz'] 			 	 	 = {['name'] = 'heroin_1oz', 					['label'] = 'Ounce of Heroin', 			['weight'] = 280, 		['type'] = 'item', 		['image'] = 'heroin_1oz.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,   ['description'] = 'A large amount of heroin.'},
 	['heroinbaggy'] 			 	 = {['name'] = 'heroinbaggy', 					['label'] = 'Bag of Heroin', 			['weight'] = 10, 		['type'] = 'item', 		['image'] = 'heroinbaggy.png', 			['unique'] = false, 	['useable'] = true, 	['shouldClose'] = true,	  ['combinable'] = nil,   ['description'] = 'Heroin. Destroying lives since 1898!'},
@@ -1846,7 +1846,7 @@ QBShared.Items = {
 	["medmachine"] 				= {["name"] = "medmachine", 			["label"] = "Medical Machine", 					["weight"] = 1000, 			["type"] = "item", 		["image"] = "medmachine.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "A medical machine"},
 	["hospitalbedtable"] 		= {["name"] = "hospitalbedtable", 		["label"] = "Bedside Table", 					["weight"] = 1000, 			["type"] = "item", 		["image"] = "hospitalbedtable.png", 	["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "A hospital bedside table"},
 	["medtable"] 			 	= {["name"] = "medtable", 				["label"] = "Medical Table", 					["weight"] = 1000, 			["type"] = "item", 		["image"] = "medtable.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "A medical table with machines on it"},
-	["bodybag"] 			 	= {["name"] = "bodybag", 				["label"] = "Body Bag", 						["weight"] = 1000, 			["type"] = "item", 		["image"] = "bodybag.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "A body bag for putting deceased humans in"},
+	-- ["bodybag"] 			 	= {["name"] = "bodybag", 				["label"] = "Body Bag", 						["weight"] = 1000, 			["type"] = "item", 		["image"] = "bodybag.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = "A body bag for putting deceased humans in"},
 	
 	-- -- Cargo items
 	-- ["cargobox1"] 			 	= {["name"] = "cargobox1", 				["label"] = "Large cardboardbox pallet", 		["weight"] = 1000, 			["type"] = "item", 		["image"] = "cargobox1.png", 				["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,	   ["combinable"] = nil,   ["description"] = ""},
@@ -1984,7 +1984,7 @@ QBShared.Items = {
 	xanax_prescription 		 	 = {name = 'xanax_prescription',          	label = 'Zany Prescription',	 			 weight = 250, 		type = 'item', 		image = 'xanaxprescription.png', 		unique = false, 	useable = false, 	shouldClose = false,   combinable = nil,     				 description = ''},
 	adderal 			    	 = {name = 'adderal', 			  		 	label = 'Madderal', 						 weight = 100, 		type = 'item', 		image = 'adderal.png', 					unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = ''},
 	vicodin 			    	 = {name = 'vicodin', 			  		 	label = 'Vicie', 							 weight = 100, 		type = 'item', 		image = 'vicodin.png', 					unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = ''},
-	morphine 			    	 = {name = 'morphine', 			  		 	label = 'Morphin', 							 weight = 100, 		type = 'item', 		image = 'morphine.png', 				unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = ''},
+	-- morphine 			    	 = {name = 'morphine', 			  		 	label = 'Morphin', 							 weight = 100, 		type = 'item', 		image = 'morphine.png', 				unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = ''},
 	xanax 			     		 = {name = 'xanax', 			  		 	label = 'Zany', 							 weight = 100, 		type = 'item', 		image = 'xanax.png', 					unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = ''},
 	adderalbottle 			     = {name = 'adderalbottle', 			  	label = 'Madderal Bottle', 					 weight = 100, 		type = 'item', 		image = 'pillbottle.png', 				unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = ''},
 	vicodinbottle 			     = {name = 'vicodinbottle', 			  	label = 'Vicie Bottle', 					 weight = 100, 		type = 'item', 		image = 'pillbottle.png', 				unique = false, 	useable = true, 	shouldClose = true,	   combinable = nil, 					 description = ''},
@@ -2240,4 +2240,90 @@ QBShared.Items = {
 	-- beanbagshotgun
 	['weapon_beanbagshotgun'] 			 = {['name'] = 'weapon_beanbagshotgun', 		 	  	['label'] = 'Non-Lethal Shotgun', 			    ['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_beanbagshotgun.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A Non-lethal version of the Remington 870'},
 	
+	-- refined-ambulance
+	ifaks = {
+		name = 'ifaks',
+		label = 'Ifaks',
+		weight = 100,
+		type = 'item',
+		image = 'ifaks.png',
+		unique = true,
+		useable = true,
+		shouldClose = true,
+		combinable = nil,
+		description = 'A compact kit containing essential medical supplies for emergencies'
+	},
+	bandage = {
+		name = 'bandage',
+		label = 'Bandage',
+		weight = 100,
+		type = 'item',
+		image = 'bandage.png',
+		unique = true,
+		useable = true,
+		shouldClose = true,
+		combinable = nil,
+		description = 'A sterile strip used for covering and protecting wounds.'
+	},
+	painkiller = {
+		name = 'painkiller',
+		label = 'Painkiller',
+		weight = 100,
+		type = 'item',
+		image = 'painkiller.png',
+		unique = true,
+		useable = true,
+		shouldClose = true,
+		combinable = nil,
+		description = 'A medication used to alleviate pain quickly and effectively.'
+	},
+	firstaid = {
+		name = 'firstaid',
+		label = 'Firstaid',
+		weight = 100,
+		type = 'item',
+		image = 'firstaid.png',
+		unique = true,
+		useable = true,
+		shouldClose = true,
+		combinable = nil,
+		description = 'A comprehensive kit containing basic medical supplies for initial emergency care.'
+	},
+	morphine = {
+		name = 'morphine',
+		label = 'Morphine',
+		weight = 100,
+		type = 'item',
+		image = 'morphine.png',
+		unique = true,
+		useable = true,
+		shouldClose = true,
+		combinable = nil,
+		description = 'A potent analgesic used to relieve severe pain.'
+	},
+	bodybag = {
+		name = 'bodybag',
+		label = 'Bodybag',
+		weight = 100,
+		type = 'item',
+		image = 'bodybag.png',
+		unique = true,
+		useable = true,
+		shouldClose = true,
+		combinable = nil,
+		description = 'A durable, zippered bag used for transporting and storing deceased individuals.'
+	},
+	healthmonitor = {
+		name = 'healthmonitor',
+		label = 'Health Monitor',
+		weight = 100,
+		type = 'item',
+		image = 'healthmonitor.png',
+		unique = true,
+		useable = true,
+		shouldClose = true,
+		combinable = nil,
+		description = 'A portable device for tracking vital signs in real-time.'
+	},
+
 }
