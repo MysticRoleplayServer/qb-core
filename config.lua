@@ -66,6 +66,7 @@ QBConfig.Player.PlayerDefaults = {
             pristine = 0
         },
         communityservice = 0, -- qb-community-service
+        reporep = 0, -- pug-repojob
         hunger = 100,
         thirst = 100,
         stress = 0,
