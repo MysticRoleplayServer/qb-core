@@ -2380,4 +2380,6 @@ QBShared.Items = {
 	-- envi-trap
 	['trap_phone']                	 = {['name'] = 'trap_phone',               	['label'] = 'Trap Phone',             ['weight'] = 250,       ['type'] = 'item',      ['image'] = 'burnerphone.png',        	['unique'] = false,     ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A burner phone, what do you need one of these for?'},
 
+	-- bbv-drone
+	drone = { name = 'drone', label = 'Drone', weight = 1, type = 'item', image = 'drone.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Rockstar Editor Drone' },
 }
