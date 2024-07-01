@@ -7,6 +7,12 @@ QBShared.Jobs = {
 	lawyer = { label = 'Law Firm', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Associate', payment = 100 } } },
 	trucker = { label = 'Trucker', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 100 } } },
 	garbage = { label = 'Garbage', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Collector', payment = 100 } } },
+	gruppe = { label = 'Gruppe Sechs', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Driver', payment = 100 } } },
+	builder = { label = 'Stone Sober', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Builder', payment = 100 } } },
+	lumberjack = { label = 'Woodland Wonders', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Lumberjack', payment = 100 } } },
+	miner = { label = 'Tunnel Titans', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Miner', payment = 100 } } },
+	oilrig = { label = 'Drilling Dynamics', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Rig Operator', payment = 100 } } },
+	window = { label = 'Crystal Clean View', defaultDuty = true, offDutyPay = false, grades = { ['0'] = { name = 'Cleaner', payment = 100 } } },
 
 	police = {
 		label = 'Los Santos Police Department',
