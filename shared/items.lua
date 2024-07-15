@@ -275,7 +275,6 @@ QBShared.Items = {
 
     -- Material
     plastic                      = { name = 'plastic', label = 'Plastic', weight = 100, type = 'item', image = 'plastic.png', unique = false, useable = false, shouldClose = false, description = 'RECYCLE! - Greta Thunberg 2019' },
-    metalscrap                   = { name = 'metalscrap', label = 'Metal Scrap', weight = 100, type = 'item', image = 'metalscrap.png', unique = false, useable = false, shouldClose = false, description = 'You can probably make something nice out of this' },
     copper                       = { name = 'copper', label = 'Copper', weight = 100, type = 'item', image = 'copper.png', unique = false, useable = false, shouldClose = false, description = 'Nice piece of metal that you can probably use for something' },
     aluminum                     = { name = 'aluminum', label = 'Aluminium', weight = 100, type = 'item', image = 'aluminum.png', unique = false, useable = false, shouldClose = false, description = 'Nice piece of metal that you can probably use for something' },
     aluminumoxide                = { name = 'aluminumoxide', label = 'Aluminium Powder', weight = 100, type = 'item', image = 'aluminumoxide.png', unique = false, useable = false, shouldClose = false, description = 'Some powder to mix with' },
@@ -1210,7 +1209,7 @@ QBShared.Items = {
 
 	--[[qb-weaponrepair]]
 	['weaponrepairkit']                	 = {['name'] = 'weaponrepairkit',               	['label'] = 'Weapon repair kit',             ['weight'] = 2000,       ['type'] = 'item',      ['image'] = 'weaponrepairkit.png',        	['unique'] = true,     ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A repair kit for your weapon. Not meant for permanent repairs.'},
-
+	
 	--[[rcore-casino]]
 	["casino_beer"] = {
 		["name"] = "casino_beer",
@@ -1548,8 +1547,8 @@ QBShared.Items = {
 	["ecolalight"] 			= {["name"] = "ecolalight",  	    ["label"] = "eCola Light",		 		["weight"] = 100,["type"] = "item",["image"] = "ecolalight.png", 		["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "", ['thirst'] = math.random(20, 30) },
 
 	-- ps-camera
-	['camera'] 				= {['name'] = 'camera', 			  	  		['label'] = 'Camera', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'camera.png', 				['unique'] = true, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Camera to take pretty pictures.'},
-	['photo'] 				= {['name'] = 'photo', 			  	  		['label'] = 'Saved Pic', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'photo.png', 				['unique'] = true, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Brand new picture saved!'},
+	-- ['camera'] 				= {['name'] = 'camera', 			  	  		['label'] = 'Camera', 					['weight'] = 1000, 		['type'] = 'item', 		['image'] = 'camera.png', 				['unique'] = true, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Camera to take pretty pictures.'},
+	-- ['photo'] 				= {['name'] = 'photo', 			  	  		['label'] = 'Saved Pic', 				['weight'] = 500, 		['type'] = 'item', 		['image'] = 'photo.png', 				['unique'] = true, 	['useable'] = true, 	['shouldClose'] = true,   ['combinable'] = nil,   ['description'] = 'Brand new picture saved!'},
 
 	--flightschool
 	["flightlicense"]		= {["name"] = "flightlicense",		   ["label"] = "Flight License",		       ["weight"] = 10,	 ["type"] = "item",	   ["image"] = "flightlicense.png",	           ["unique"] = true,	   ["useable"] = true,	   ["shouldClose"] = true,	 ["combinable"] = nil,	   ["description"] = ""},
@@ -1727,16 +1726,16 @@ QBShared.Items = {
 	["truly_strawberry"] 			 = {["name"] = "truly_strawberry", 				["label"] = "Strawberry Truly", 		["weight"] = 200, 		["type"] = "item", 		["image"] = "truly_strawberry.png", 			["unique"] = false, 	["useable"] = true, 	["shouldClose"] = true,   	["combinable"] = nil,   ["description"] = "A Truly Can", },
 
 	-- envi-sabotage
-	impact_driver 			= {name = 'impact_driver',		label = 'Impact Driver',		weight = 1000,			type = 'item',		image = 'impact_driver.png',		        unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	impact_driver 			= {name = 'impact_driver',		label = 'Impact Driver',		weight = 1000,			type = 'item',		image = 'impact_driver.png',		unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
 	spanner 				= {name = 'spanner',			label = 'Spanner',		        weight = 1000,			type = 'item',		image = 'spanner.png',				unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
 	pliers 		            = {name = 'pliers',		        label = 'Pliers',		        weight = 1000,			type = 'item',		image = 'pliers.png',				unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
 	adjustable_spanner 		= {name = 'adjustable_spanner',	label = 'Adjustable Spanner',	weight = 1000,			type = 'item',		image = 'adj_spanner.png',	        unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
 	drill 		            = {name = 'drill',		        label = 'Drill',		        weight = 1000,			type = 'item',		image = 'drill.png',				unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
 	buzz_saw 				= {name = 'buzz_saw',			label = 'Buzz Saw',		        weight = 1000,			type = 'item',		image = 'buzz_saw.png',				unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
 	screwdriver 			= {name = 'screwdriver',		label = 'Screwdriver',			weight = 1000,			type = 'item',		image = 'screwdriver.png',			unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
-	ignition_bomb 			= {name = 'ignition_bomb',		label = 'Ignition Bomb',		weight = 1000,			type = 'item',		image = 'ignition_bomb.png',		        unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	ignition_bomb 			= {name = 'ignition_bomb',		label = 'Ignition Bomb',		weight = 1000,			type = 'item',		image = 'ignition_bomb.png',		unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
 	impact_bomb 			= {name = 'impact_bomb',		label = 'Impact Bomb',		    weight = 1000,			type = 'item',		image = 'impact_bomb.png',			unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
-	remote_bomb 			= {name = 'remote_bomb',		label = 'Remote Bomb',		    weight = 1000,			type = 'item',		image = 'ignition_bomb.png',			unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	remote_bomb 			= {name = 'remote_bomb',		label = 'Remote Bomb',		    weight = 1000,			type = 'item',		image = 'ignition_bomb.png',		unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
 	speed_bomb 				= {name = 'speed_bomb',			label = 'Speed Bomb',		    weight = 1000,			type = 'item',		image = 'speed_bomb.png',			unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
 	firelighter 			= {name = 'firelighter',		label = 'Firelighter',		    weight = 1000,			type = 'item',		image = 'firelighter.png',			unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
 
@@ -2378,8 +2377,16 @@ QBShared.Items = {
 	mechanic_tablet = { name = 'mechanic_tablet', label = 'Mechanic Tablet', weight = 1000, type = 'item', image = 'mechanic_tablet.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = nil },
 
 	-- envi-trap
-	['trap_phone']                	 = {['name'] = 'trap_phone',               	['label'] = 'Trap Phone',             ['weight'] = 250,       ['type'] = 'item',      ['image'] = 'burnerphone.png',        	['unique'] = false,     ['useable'] = true,     ['shouldClose'] = true,    ['combinable'] = nil,   ['description'] = 'A burner phone, what do you need one of these for?'},
+	['trap_phone'] = {['name'] = 'trap_phone', ['label'] = 'Trap Phone', ['weight'] = 250, ['type'] = 'item', ['image'] = 'burnerphone.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'A burner phone, what do you need one of these for?'},
 
 	-- bbv-drone
 	drone = { name = 'drone', label = 'Drone', weight = 1, type = 'item', image = 'drone.png', unique = false, useable = true, shouldClose = false, combinable = nil, description = 'Rockstar Editor Drone' },
+
+	-- custom weapon crafting
+	weapon_parts = { name = 'weapon_parts', label = 'Weapon Parts', weight = 1000, type = 'item', image = 'weapon_parts.png', unique = false, useable = true, shouldClose = true, description = 'Parts for crafting weapons.' },
+    metalscrap   = { name = 'metalscrap', label = 'Metal Scrap', weight = 100, type = 'item', image = 'metalscrap.png', unique = false, useable = false, shouldClose = false, description = 'You can probably make something nice out of this' },
+
+	-- dusa-mdt
+	camera = { name = 'camera', label = 'CCTV Camera', weight = 1, type = 'item', image = 'camera.png', unique = false, useable = true, shouldClose = true, combinable = nil, description = 'Police CCTV Camera' },
+
 }
