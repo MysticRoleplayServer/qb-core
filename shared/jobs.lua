@@ -80,6 +80,17 @@ QBShared.Jobs = {
 			['3'] = { name = 'Game Warden', isboss = true, payment = 250 },
 		},
 	},
+	government = {
+		label = 'San Andreas Government',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+			['0'] = { name = 'Office Employee', payment = 120 },
+			['1'] = { name = 'Secritary', payment = 150 },
+			['2'] = { name = 'Assistant Governor', payment = 200 },
+			['3'] = { name = 'Governor', isboss = true, payment = 250 },
+		},
+	},
 	ambulance = {
 		label = 'Fire/EMS',
 		type = 'ems',
