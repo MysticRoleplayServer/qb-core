@@ -186,6 +186,7 @@ QBShared.Weapons = {
 	[`weapon_taser`] = { name = 'weapon_taser', label = 'PD Taser', caliber = 'Taser Cartridge',  weapontype = 'Pistol', ammotype = 'AMMO_STUNGUN', damagereason = 'Tased' },
 	
 	[`weapon_prolaser4`] = { name = 'weapon_prolaser4', label = 'Lidar Gun', caliber = nil,  weapontype = 'Pistol', ammotype = nil, damagereason = 'Ticketed / Fined / Caught Speeding / Slow Down' },
-	[`weapon_beanbagshotgun`] = { name = 'weapon_beanbagshotgun', label = 'Non-Lethal Shotgun', caliber = 'Bean Bags', caliber = '12 Gauge', weapontype = 'Shotgun', ammotype = 'AMMO_SHOTGUN', damagereason = 'Hit by a bean bag' },
-	
+	[`weapon_beanbagshotgun`] = { name = 'weapon_beanbagshotgun', label = 'Non-Lethal Shotgun', caliber = 'Bean Bags', weapontype = 'Shotgun', ammotype = 'AMMO_SHOTGUN', damagereason = 'Hit by a bean bag' },
+	[`weapon_flamethrower`] = { name = 'weapon_flamethrower', label = 'Flame Thrower', caliber = nil, weapontype = 'Miscellaneous', ammotype = nil, damagereason = 'Burned' },
+
 }
