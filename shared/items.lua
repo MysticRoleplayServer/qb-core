@@ -2194,6 +2194,7 @@ QBShared.Items = {
 	
 	-- beanbagshotgun
 	['weapon_beanbagshotgun'] 			 = {['name'] = 'weapon_beanbagshotgun', 		 	  	['label'] = 'Non-Lethal Shotgun', 			    ['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = 'AMMO_SHOTGUN',			['image'] = 'weapon_beanbagshotgun.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'A Non-lethal version of the Remington 870'},
+	['weapon_flamethrower'] 			 = {['name'] = 'weapon_flamethrower', 		 	  	['label'] = 'Flame thrower', 			    ['weight'] = 1000, 		['type'] = 'weapon', 	['ammotype'] = nil,			['image'] = 'weapon_flamethrower.png', 		['unique'] = true, 		['useable'] = false, 	['description'] = 'Burn it all down!'},
 	
 	-- refined-ambulance
 	ifaks = { name = 'ifaks', label = 'Ifaks', weight = 100, type = 'item', image = 'ifaks.png', unique = true, useable = true, shouldClose = true, combinable = nil, description = 'A compact kit containing essential medical supplies for emergencies' },
@@ -2269,7 +2270,7 @@ QBShared.Items = {
     oxy                 = { name = 'oxy', 			label = 'Prescription Oxy', 		weight = 200, 		type = 'item', 		image = 'oxy.png', 					unique = false, 	useable = true, 	shouldClose = true, 	description = 'The Label Has Been Ripped Off' },
     joint               = { name = 'joint', 		label = 'Joint', 					weight = 200, 		type = 'item', 		image = 'joint.png', 				unique = false, 	useable = true, 	shouldClose = true, 	description = 'Sidney would be very proud at you' },
     xtcbaggy            = { name = 'xtcbaggy', 		label = 'Bag of XTC', 				weight = 200, 		type = 'item', 		image = 'xtc_baggy.png', 			unique = false, 	useable = true, 	shouldClose = true, 	description = 'Pop those pills baby' },
-	morphine 			= { name = 'morphine', 		label = 'Morphine', 				weight = 200, 		type = 'item', 		image = 'morphine.png', 			unique = false, 	useable = true, 	shouldClose = true,	    description = 'Morphine. Good for pain but also a good time!' },
+	-- morphine 			= { name = 'morphine', 		label = 'Morphine', 				weight = 200, 		type = 'item', 		image = 'morphine.png', 			unique = false, 	useable = true, 	shouldClose = true,	    description = 'Morphine. Good for pain but also a good time!' },
 	morphinebaggy 		= { name = 'morphinebaggy', label = 'Bag of Morphine', 			weight = 200, 		type = 'item', 		image = 'morphinebaggy.png', 		unique = false, 	useable = true, 	shouldClose = true,	    description = 'A baggy of morphine.' },
 	heroin_1oz 			= { name = 'heroin_1oz', 	label = 'Ounce of Heroin', 			weight = 200, 		type = 'item', 		image = 'heroin_1oz.png', 			unique = false, 	useable = true, 	shouldClose = true,	    description = 'A large amount of heroin.' },
 	heroinbaggy 		= { name = 'heroinbaggy', 	label = 'Bag of Heroin', 			weight = 200, 		type = 'item', 		image = 'heroinbaggy.png', 			unique = false, 	useable = true, 	shouldClose = true,	    description = 'Heroin. Destroying lives since 1898!' },
@@ -2292,4 +2293,54 @@ QBShared.Items = {
 	meth_7g 			= { name = 'meth_7g', 		label = '7 Grams of Meth', 			weight = 200, 		type = 'item', 		image = 'meth_7g.png', 				unique = false, 	useable = true, 	shouldClose = true,     description = '7 grams of meth.' },
 	meth_1oz 			= { name = 'meth_1oz', 		label = '1 Ounce of Meth', 			weight = 200, 		type = 'item', 		image = 'meth_1oz.png', 			unique = false, 	useable = false, 	shouldClose = true,     description = '1 ounce of meth.' },
 
+	-- envi-methlab
+	acetone 				= {name = 'acetone', 					label = 'Acetone', 			weight = 1000, 		type = 'item', 		image = 'acetone.png', 			unique = false, 	    useable = true, 	shouldClose = false,   		combinable = nil,   description = 'A highly volitile chemical..'},
+	lithium 			 	= {name = 'lithium', 					label = 'Lithium', 			weight = 500, 		type = 'item', 		image = 'lithium.png', 			unique = false,    	    useable = true, 	shouldClose = true,	   	combinable = nil,   description = 'Lithium, commonly found in batteries.'},
+	meth_testkit 			 	= {name = 'meth_testkit', 				label = 'Meth Test Kit', 		weight = 500, 		type = 'item', 		image = 'meth_testkit.png', 		unique = false,    	    useable = true, 	shouldClose = true,	   	combinable = nil,   description = 'Meth Test Kit.'},
+	eggtimer 			 	= {name = 'eggtimer', 					label = 'Egg Timer', 			weight = 500, 		type = 'item', 		image = 'eggtimer.png', 		unique = false,    	    useable = true, 	shouldClose = true,	   	combinable = nil,   description = 'Egg Timer.'},
+	meth 			 	        = {name = 'meth', 					label = '1g of Meth', 			weight = 100, 		type = 'item', 		image = 'meth.png', 			unique = false,    	    useable = true, 	shouldClose = true,	   	combinable = nil,   description = 'A gram of the finest teeth rotting goodness!'},	
+	meth_1oz 			 	= {name = 'meth_1oz', 					label = 'Ounce of Meth', 		weight = 280, 		type = 'item', 		image = 'meth_1oz.png', 		unique = false,    	    useable = true, 	shouldClose = true,	   	combinable = nil,   description = 'A ounce of the finest teeth rotting goodness!'},	
+	gasmask 			 	= {name = 'gasmask', 					label = 'Gas Mask', 			weight = 3000, 	        type = 'item', 		image = 'gasmask.png', 			unique = true,              useable = true, 	shouldClose = true,	        combinable = nil,   description = 'One size fits all!'},
+	hydrochloricacid 			= {name = 'hydrochloricacid', 			        label = 'Hydrochloric Acid', 		weight = 500, 		type = 'item', 		image = 'hydrochloricacid.png', 	unique = false, 	    useable = true, 	shouldClose = false,            combinable = nil,   description = 'Highly acidic.'},
+	red_phos 			 	= {name = 'red_phos', 					label = 'Red Phosphorus', 	        weight = 500, 	        type = 'item', 		image = 'red_phos.png', 		unique = false,             useable = true, 	shouldClose = true,	        combinable = nil,   description = 'A componant used in match-sticks.'},
+	pseudoephedrine 			= {name = 'pseudoephedrine', 			        label = 'Pseudoephedrine', 		weight = 500, 	        type = 'item', 		image = 'pseudoephedrine.png', 		unique = false,             useable = true, 	shouldClose = true,	        combinable = nil,   description = 'Over-The-Counter medication.'},
+	crushed_pseudo 			        = {name = 'crushed_pseudo', 			        label = 'Crushed Pseudo', 		weight = 500, 	        type = 'item', 		image = 'crushed_pseudo.png', 		unique = false,             useable = true, 	shouldClose = true,	        combinable = nil,   description = 'Over-The-Counter medication crushed into a fine powder.'},
+	pestle_and_mortar 			= {name = 'pestle_and_mortar', 			        label = 'Pestle and Mortar', 		weight = 2000, 		type = 'item', 		image = 'pestle_and_mortar.png', 	unique = false, 	    useable = true, 	shouldClose = false,   		combinable = nil,   description = 'Used for crushing ingredients.'},
+	methlab 			        = {name = 'methlab', 					label = 'Portable Meth-Lab', 		weight = 10000, 	type = 'item', 		image = 'methlab.png', 			unique = false, 	    useable = true, 	shouldClose = false,   		combinable = nil,   description = 'Meth equipment for on-the-go!'},
+	beaker 				        = {name = 'beaker', 					label = 'Chemical Beaker', 		weight = 1500, 		type = 'item', 		image = 'beaker.png', 			unique = false, 	    useable = true, 	shouldClose = false,   		combinable = nil,   description = 'Pyrex beaker for mixing chemicals!'},
+	food_coloring 			        = {name = 'food_coloring', 				label = 'Food Coloring (Blue)', 	weight = 500, 		type = 'item', 		image = 'food_coloring.png', 		unique = false, 	    useable = true, 	shouldClose = false,   		combinable = nil,   description = 'Give your food that "Jesse Special"'},
+
+	-- envi-perscriptions
+		-- Prescription Stuff 
+	prescription 		= {name = 'prescription',			label = 'Prescription Receipt',			weight = 100,			type = 'item',		image = 'prescription.png',			        unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	prescription_pad 	= {name = 'prescription_pad',			label = 'Prescription Pad',			weight = 100,			type = 'item',		image = 'prescription_pad.png',				unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	adrenaline 			= {name = 'adrenaline',				label = 'Adrenaline',			        weight = 100,			type = 'item',		image = 'adrenaline.png',				unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+		--oxy 			 	= {name = 'oxy',				label = 'Oxycodone',			        weight = 100,			type = 'item',		image = 'oxy.png',					unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	xanax 			 	= {name = 'xanax',				label = 'Xanax',				weight = 100,			type = 'item',		image = 'xanax.png',					unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	steroids 			= {name = 'steroids',				label = 'Steroids',			        weight = 100,			type = 'item',		image = 'steroids.png',					unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	valium 			 	= {name = 'valium',				label = 'Valium',			        weight = 100,			type = 'item',		image = 'valium.png',					unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+		-- Lean Stuff
+	cough_syrup 		= {name = 'cough_syrup',			label = 'Cough Syrup',			        weight = 1000,			type = 'item',		image = 'cough_syrup.png',				unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = 'Warning: Contains Codeine and Promethazine'},
+	sprunk_bottle 		= {name = 'sprunk_bottle',			label = 'Bottle of Sprunk',			weight = 1000,			type = 'item',		image = 'sprunk_bottle.png',				unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	lean 			 	= {name = 'lean',				label = 'Cup of Lean',			        weight = 1000,			type = 'item',		image = 'lean.png',					unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = 'That Purple Sizzurp'},
+	lean_cup 			= {name = 'lean_cup',				label = 'Styrofoam Cup',			weight = 1000,			type = 'item',		image = 'lean_cup.png',					unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = ''},
+	narkan 			    = {name = 'narkan',				label = 'Narkan',			        weight = 1000,			type = 'item',		image = 'narkan.png',					unique = true,		useable = true,		shouldClose = true,	   combinable = nil,   description = 'Administer to prevent fatalities in overdosing patients'},
+
+	-- rfx-gym
+	['protein'] = {['name'] = 'protein', ['label'] = 'Protein', ['weight'] = 1000, ['type'] = 'item', ['image'] = 'protein.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Protein'},
+	['creatine'] = {['name'] = 'creatine', ['label'] = 'Creatine', ['weight'] = 1000, ['type'] = 'item', ['image'] = 'creatine.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Creatine'},
+	['preworkout'] = {['name'] = 'preworkout', ['label'] = 'Preworkout', ['weight'] = 1000, ['type'] = 'item', ['image'] = 'preworkout.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Preworkout'},
+	['testosterone'] = {['name'] = 'testosterone', ['label'] = 'Testosterone', ['weight'] = 1000, ['type'] = 'item', ['image'] = 'testosterone.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['combinable'] = nil, ['description'] = 'Testosterone'},
+	
+
+
+    --AUTO GENERATED BY 17MOVEMENT VEHICLE DIRT SYSTEM
+    ['mov_advanced_wax']                     = { ['name'] = 'mov_advanced_wax', ['label'] = 'Advanced Wax', ['weight'] = 10, ['type'] = 'item', ['image'] = 'mov_advanced_wax.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'After application on the car, the car is highly resistant to external dirt, such as driving on unpaved roads, etc. It will still get dirty, but much more slowly. It lasts about 7 days on the car, after which time reapplication is required to maintain the effect.'},
+    ['mov_basic_ceramic']                     = { ['name'] = 'mov_basic_ceramic', ['label'] = 'Basic Ceramic', ['weight'] = 10, ['type'] = 'item', ['image'] = 'mov_basic_ceramic.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'After application on the car, dirt does not stick to the bodywork, making it much easier to wash off at the car wash. It lasts about 3 days on the car, after which time reapplication is required to maintain the effect.'},
+    ['mov_basic_wax']                     = { ['name'] = 'mov_basic_wax', ['label'] = 'Basic Wax', ['weight'] = 10, ['type'] = 'item', ['image'] = 'mov_basic_wax.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'After application on the car, the car is resistant to external dirt, such as driving on unpaved roads, etc. It will still get dirty, but much more slowly. It lasts about 3 days on the car, after which time reapplication is required to maintain the effect.'},
+    ['mov_advanced_ceramic']                     = { ['name'] = 'mov_advanced_ceramic', ['label'] = 'Premium Ceramic', ['weight'] = 10, ['type'] = 'item', ['image'] = 'mov_advanced_ceramic.png', ['unique'] = false, ['useable'] = true, ['shouldClose'] = true, ['description'] = 'After application on the car, dirt does not stick to the bodywork at all, so at the car wash, it only needs to be rinsed off. It lasts about 7 days on the car, after which time reapplication is required to maintain the effect.'},
 }
+
+
+
+
