@@ -799,14 +799,15 @@ local Vehicles = {
     { model = '24model3',         name = '2024 Model 3',               brand = 'Tesla',           price = 26000,   category = 'donate',         type = 'automobile', shop = 'none' },
     { model = 'iyremakerolls',    name = 'Collinin Government',        brand = 'Rolls Royce',     price = 26000,   category = 'donate',         type = 'automobile', shop = 'none' },
     -- jakers-vehicles
-    { model = 'pvcjv',         name = 'Cruiser',                    brand = 'Vapid',           price = 26000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
+    { model = 'pvcjv',         name = 'Cruiser',                    brand = 'Vapid',           price = 15000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
     { model = 'pvajv',         name = 'Aleutian',                   brand = 'Vapid',           price = 52000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
     { model = 'pvsjv',         name = 'Scout',                      brand = 'Vapid',           price = 56000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
-    { model = 'spbbjv',        name = 'STX',                        brand = 'Bravado',         price = 50000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
-    { model = 'spvdjv',        name = 'Dominator',                  brand = 'Vapid',           price = 95000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
+    { model = 'spbbjv',        name = 'STX',                        brand = 'Bravado',         price = 65000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
+    { model = 'spvdjv',        name = 'Dominator',                  brand = 'Vapid',           price = 70000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
     { model = 'spvhjv',        name = 'Valkyrie',                   brand = 'Heli',            price = 100000,  category = 'emergency',      type = 'heli',       shop = 'none' },
-    { model = 'sebbjv',        name = 'EMS STX',                    brand = 'Bravado',         price = 26000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' }, 
+    { model = 'sebbjv',        name = 'EMS STX',                    brand = 'Bravado',         price = 26000,   category = 'emergency',      type = 'automobile', shop = 'none' }, 
     { model = 'ambo1',         name = 'Ambulance',                  brand = 'Ambulance',       price = 26000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    --mods
 
 }
 
