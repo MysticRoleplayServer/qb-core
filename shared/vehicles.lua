@@ -781,15 +781,29 @@ local Vehicles = {
     { model = 'Code321Tahoe',     name = '2021 Tahoe',                 brand = 'Chevy',           price = 58000,   category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'Code3Mustang',     name = 'Mustang',                    brand = 'Ford',            price = 95000,   category = 'emergency',      type = 'automobile', shop = 'none' },
     -- Custom DOT
-    { model = 'dot1',             name = 'DOT Truck w/ Shovel',        brand = 'Dodge',           price = 26000,   category = 'emergency',      type = 'automobile', shop = 'none' },
-    { model = 'dot2',             name = 'DOT Truck w/o Shovel',       brand = 'Dodge',           price = 26000,   category = 'emergency',      type = 'automobile', shop = 'none' },
+    { model = 'dot1',             name = 'DOT Truck w/ Shovel',        brand = 'Dodge',           price = 2000,    category = 'emergency',    type = 'automobile', shop = 'dot' },
+    { model = 'dot2',             name = 'DOT Truck w/o Shovel',       brand = 'Dodge',           price = 2000,    category = 'emergency',    type = 'automobile', shop = 'dot' },
+    { model = 'bcbiffheavyts',    name = 'Giant Tow Truck',            brand = 'Tow',             price = 12000,   category = 'utility',      type = 'automobile', shop = 'dot' },
+    { model = 'bcwsts',           name = 'Medium Tow Truck',           brand = 'Tow',             price = 8000,    category = 'utility',      type = 'automobile', shop = 'dot' },
+    { model = 'foxwrecker2',      name = 'Extended Tow Truck',         brand = 'Wrecker',         price = 16000,   category = 'utility',      type = 'automobile', shop = 'dot' },
+    { model = 'flatbed3',         name = 'Flatbed',                    brand = 'Tow',             price = 5000,    category = 'utility',      type = 'automobile', shop = 'dot' },
     -- Custom EMS
     { model = 'emscharger',       name = 'EMS Charger',                brand = 'Dodge',           price = 26000,   category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'emstahoe',         name = 'EMS Tahoe',                  brand = 'Chevy',           price = 26000,   category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'emsfpiu',          name = 'EMS Explorer',               brand = 'Ford',            price = 26000,   category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'fordambo',         name = 'Ford Ambulance',             brand = 'Ford',            price = 26000,   category = 'emergency',      type = 'automobile', shop = 'none' },
     { model = 'stretcher',        name = 'Stretcher',                  brand = 'Medical',         price = 26000,   category = 'emergency',      type = 'automobile', shop = 'none' },
-    -- Custom Non-Emergency
+    -- jakers-vehicles
+    { model = 'pvcjv',         name = 'Cruiser',                    brand = 'Vapid',           price = 15000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
+    { model = 'pvajv',         name = 'Aleutian',                   brand = 'Vapid',           price = 52000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
+    { model = 'pvsjv',         name = 'Scout',                      brand = 'Vapid',           price = 56000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
+    { model = 'spbbjv',        name = 'STX',                        brand = 'Bravado',         price = 65000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
+    { model = 'spvdjv',        name = 'Dominator',                  brand = 'Vapid',           price = 70000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
+    { model = 'spvhjv',        name = 'Valkyrie',                   brand = 'Heli',            price = 100000,  category = 'emergency',      type = 'heli',       shop = 'none' },
+    { model = 'sebbjv',        name = 'EMS STX',                    brand = 'Bravado',         price = 26000,   category = 'emergency',      type = 'automobile', shop = 'ems' }, 
+    { model = 'ambo1',         name = 'Ambulance',                  brand = 'Ambulance',       price = 26000,   category = 'emergency',      type = 'automobile', shop = 'ems' },
+    -- DONATE -- 
+        -- Custom Non-Emergency
     { model = 'rmodbmwm8',        name = '2022 M8 Competition',        brand = 'BMW',             price = 26000,   category = 'donate',         type = 'automobile', shop = 'none' },
     { model = 'rmodf40',          name = 'New Model',                  brand = 'Ferarri',         price = 26000,   category = 'donate',         type = 'automobile', shop = 'none' },
     { model = 'rmodr8c',          name = '2023 R8',                    brand = 'Audi',            price = 26000,   category = 'donate',         type = 'automobile', shop = 'none' },
@@ -798,16 +812,22 @@ local Vehicles = {
     { model = 'cadct5beast',      name = '2024 CT5-V Blackwing',       brand = 'Cadillac',        price = 26000,   category = 'donate',         type = 'automobile', shop = 'none' },
     { model = '24model3',         name = '2024 Model 3',               brand = 'Tesla',           price = 26000,   category = 'donate',         type = 'automobile', shop = 'none' },
     { model = 'iyremakerolls',    name = 'Collinin Government',        brand = 'Rolls Royce',     price = 26000,   category = 'donate',         type = 'automobile', shop = 'none' },
-    -- jakers-vehicles
-    { model = 'pvcjv',         name = 'Cruiser',                    brand = 'Vapid',           price = 15000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
-    { model = 'pvajv',         name = 'Aleutian',                   brand = 'Vapid',           price = 52000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
-    { model = 'pvsjv',         name = 'Scout',                      brand = 'Vapid',           price = 56000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
-    { model = 'spbbjv',        name = 'STX',                        brand = 'Bravado',         price = 65000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
-    { model = 'spvdjv',        name = 'Dominator',                  brand = 'Vapid',           price = 70000,   category = 'emergency',      type = 'automobile', shop = 'mrpd' },
-    { model = 'spvhjv',        name = 'Valkyrie',                   brand = 'Heli',            price = 100000,  category = 'emergency',      type = 'heli',       shop = 'none' },
-    { model = 'sebbjv',        name = 'EMS STX',                    brand = 'Bravado',         price = 26000,   category = 'emergency',      type = 'automobile', shop = 'none' }, 
-    { model = 'ambo1',         name = 'Ambulance',                  brand = 'Ambulance',       price = 26000,   category = 'emergency',      type = 'automobile', shop = 'none' },
-    --mods
+    { model = 'bckrewkut',        name = 'Bagged Convertable',         brand = 'Limi',            price = 26000,   category = 'donate',         type = 'automobile', shop = 'none' },
+
+        -- BaggedCustoms
+    { model = '17jamb',          name = 'Camper',                 brand = 'RV',              price = 50000,   category = 'utility',         type = 'automobile', shop = 'truck' },
+    { model = 'mule4',           name = 'Mule',                   brand = 'Maibatsu',        price = 40000,   category = 'commercial',      type = 'automobile', shop = 'truck' },
+
+        -- FoxTrotDelta
+    { model = 'foxct',           name = 'Cyber Rig',              brand = 'Coil',            price = 40000,   category = 'offroad',         type = 'automobile', shop = 'none' },
+    { model = 'foxcq',           name = 'Cyber Quad',             brand = 'Coil',            price = 40000,   category = 'offroad',         type = 'automobile', shop = 'none' },
+    { model = 'foxtr1',          name = 'Cyber Hauler',           brand = 'Coil',            price = 40000,   category = 'offroad',         type = 'automobile', shop = 'none' },
+    { model = 'foxcopo',         name = 'Vigero Drag Racer',      brand = 'Declasse',        price = 40000,   category = 'muscle',          type = 'automobile', shop = 'none' },
+    { model = 'foxcivic',        name = 'Zivic',                  brand = 'Blista',          price = 40000,   category = 'sedans',          type = 'automobile', shop = 'none' },
+    { model = 'foxcoma2',        name = 'Tacamo',                 brand = 'Karin',           price = 40000,   category = 'offroad',         type = 'automobile', shop = 'none' },
+    { model = 'foxrover1',       name = 'Rover',                  brand = 'Gallivanter',     price = 40000,   category = 'suvs',            type = 'automobile', shop = 'none' },
+    { model = 'foxsupra',        name = 'Jester Soup',            brand = 'Dinka',           price = 40000,   category = 'sports',          type = 'automobile', shop = 'none' },
+    { model = 'foxharley1',      name = 'David Harleyson',        brand = 'Western',         price = 40000,   category = 'motorcycles',     type = 'automobile', shop = 'none' },
 
 }
 
